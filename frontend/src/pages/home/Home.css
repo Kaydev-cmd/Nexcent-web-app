@@ -1,4 +1,5 @@
 /* Hero */
+/* Ticket #1: Change the font color */
 .hero {
   background-color: #f5f7fa;
 }
@@ -36,6 +37,7 @@
 
 .hero-left-content-text h1 {
   text-transform: capitalize;
+  color: #4d4d4d;
 }
 
 .hero-left-content-text span p {
@@ -63,6 +65,50 @@
 .hero-content-swiper-icons {
   justify-content: center;
   padding-bottom: 20px;
+}
+
+/* Our Clients */
+.our-clients {
+  margin-top: 40px;
+}
+
+.our-clients-content,
+.our-clients-content-text,
+.our-clients-content-icons-wrapper,
+.our-clients-content-icons {
+  display: flex;
+}
+
+.our-clients-content,
+.our-clients-content-text {
+  flex-direction: column;
+}
+
+.our-clients-content {
+  gap: 40px;
+}
+
+.our-clients-content-text {
+  align-items: center;
+  gap: 10px;
+}
+
+.our-clients-content-text h2 {
+  text-transform: capitalize;
+  color: #4d4d4d;
+}
+
+.our-clients-content-text p {
+  color: #717171;
+}
+
+.our-clients-content-icons-wrapper {
+  justify-content: center;
+}
+
+.our-clients-content-icons {
+  width: 100%;
+  justify-content: space-around;
 }
 
 /* Media Queries */
@@ -110,6 +156,13 @@
   .hero-left-content-text p {
     font-size: 14px;
   }
+  /* Our Clients */
+  .our-clients-content-text h2 {
+    font-size: 34px;
+  }
+  .our-clients-content-text p {
+    font-size: 14px;
+  }
 }
 
 /* md */
@@ -132,6 +185,13 @@
   .hero-left-content-btn .register-btn button {
     padding: 12px 30px;
   }
+  /* Our Clients */
+  .our-clients-content-text h2 {
+    font-size: 30px;
+  }
+  .our-clients-content-text p {
+    font-size: 12px;
+  }
 }
 
 /* sm */
@@ -152,6 +212,13 @@
   .hero-left-content-btn .register-btn button {
     padding: 10px 20px;
   }
+  /* Our Clients */
+  .our-clients-content-text h2 {
+    font-size: 22px;
+  }
+  .our-clients-content-icons img {
+    width: 8%;
+  }
 }
 
 /* xs */
@@ -165,9 +232,20 @@
   .hero-content-swiper-icons {
     display: none;
   }
+  .hero-left-content-btn .register-btn {
+    position: relative;
+    left: 8px;
+  }
+  .hero-content {
+    justify-content: center;
+  }
   .hero-left-content-text h1,
   .hero-left-content-text span p,
   .hero-left-content-text p {
     text-align: center;
+  }
+  /* Our Clients */
+  .our-clients-content-text p {
+    font-size: 11px;
   }
 }
