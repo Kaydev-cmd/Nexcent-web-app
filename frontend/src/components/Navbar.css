@@ -1,0 +1,166 @@
+/* Ticket #1: Resize the hamburger menu. */
+
+.hamburger-menu-wrapper {
+  display: none;
+}
+
+.navbar,
+.navbar-login-btn button {
+  background-color: #f5f7fa;
+}
+
+.navbar-heading h1 {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #263238;
+}
+
+.navbar-header a,
+.navbar-wrapper,
+.navbar-links nav ul,
+.navbar-btns {
+  display: flex;
+}
+
+.navbar-header a,
+.navbar-wrapper,
+.navbar-links nav ul,
+.navbar-btns {
+  align-items: center;
+}
+
+.navbar-header a,
+.navbar-links nav ul li a {
+  text-decoration: none;
+}
+
+.navbar-header a,
+.navbar-links nav ul li a {
+  color: #000;
+}
+
+.navbar-links nav ul li a,
+.navbar-login-btn button,
+.navbar-signup-btn button {
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-links nav ul li a:hover,
+.navbar-login-btn button {
+  color: #4caf4f;
+}
+
+.navbar-login-btn button:hover,
+.navbar-signup-btn button {
+  color: #fff;
+}
+
+.navbar-login-btn button,
+.navbar-signup-btn button {
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.navbar-login-btn button:hover,
+.navbar-signup-btn button {
+  background-color: #4caf4f;
+}
+
+.navbar-header a {
+  gap: 6px;
+}
+
+.navbar-wrapper {
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar-links nav ul {
+  gap: 40px;
+}
+
+.navbar-links nav ul li {
+  list-style: none;
+}
+
+.navbar-links nav ul li a {
+  font-weight: 500;
+}
+
+.navbar-btns {
+  gap: 20px;
+}
+
+.navbar-signup-btn button:hover {
+  background-color: #000;
+}
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  .navbar-links nav ul li {
+    font-size: 14px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .navbar-header a .navbar-logo img {
+    width: 20px;
+  }
+  .navbar-heading h1 {
+    font-size: 16px;
+  }
+  .navbar-links nav ul li {
+    font-size: 12px;
+  }
+  .navbar-login-btn button,
+  .navbar-signup-btn button {
+    padding: 10px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .navbar-btns,
+  .navbar-links nav ul {
+    display: none;
+  }
+  .hamburger-menu-wrapper,
+  .hamburger-menu {
+    display: flex;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}
