@@ -4,6 +4,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 export const Navbar = () => {
   return (
+    // Ticket #1: Add dropdown using useState
+    // Ticket #2: Add interactive navigation for links across the page
     <section className="navbar">
       <div className="container">
         <div className="navbar-wrapper">
