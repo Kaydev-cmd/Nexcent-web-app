@@ -238,6 +238,60 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Helping a local business */}
+      <section className="helping-a-local-business">
+        <div className="container">
+          <div className="helping-a-local-business-content-wrapper">
+            <div className="helping-a-local-business-content">
+              {/* Left Wrapper */}
+              <div className="helping-a-local-business-left-content-wrapper">
+                <div className="helping-a-local-business-left-content">
+                  <div className="helping-a-local-business-left-content-banner-wrapper">
+                    <div className="helping-a-local-business-left-content-banner">
+                      <img src="/images/home/pana.png" alt="Illustration" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Right Wrapper */}
+              <div className="helping-a-local-business-right-content-wrapper">
+                <div className="helping-a-local-business-right-content">
+                  <div className="helping-a-local-business-right-content-text-wrapper">
+                    <div className="helping-a-local-business-right-content-text">
+                      <h2>
+                        How to design your footer like
+                        <br />
+                        we did
+                      </h2>
+                      <p>
+                        Donec a eros justo. Fusce egestas tristique ultrices.
+                        Nam tempor, augue nec tincidunt
+                        <br />
+                        molestie, massa nunc varius arcu, at scelerisque elit
+                        erat a magna. Donec quis erat at
+                        <br />
+                        libero ultrices mollis. In hac habitasse platea
+                        dictumst. Vivamus vehicula leo dui, at porta
+                        <br />
+                        nisi facilisis finibus. In euismod augue vitae nisi
+                        ultricies, non aliquet urna tincidunt. Integer
+                        <br />
+                        in nisi eget nulla commodo faucibus efficitur quis
+                        massa. Praesent felis est, finibus et nisi
+                        <br />
+                        ac, hendrerit venenatis libero. Donec consectetur
+                        faucibus ipsum id gravida.
+                      </p>
+                    </div>
+                  </div>
+                  <LearnMoreButton />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

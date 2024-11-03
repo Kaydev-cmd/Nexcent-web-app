@@ -1,3 +1,5 @@
+/* Apply font families for text throughout the project */
+
 /* Hero */
 /* Fix alignment bug for the mobile media query (<= 640px) */
 .hero {
@@ -219,6 +221,44 @@
   gap: 20px;
 }
 
+/* Helping a local business */
+.helping-a-local-business {
+  margin-top: 40px;
+}
+
+.helping-a-local-business-content,
+.helping-a-local-business-right-content,
+.helping-a-local-business-right-content-text {
+  display: flex;
+}
+
+.helping-a-local-business-right-content,
+.helping-a-local-business-right-content-text {
+  flex-direction: column;
+}
+
+.helping-a-local-business-content {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.helping-a-local-business-right-content {
+  gap: 40px;
+}
+
+.helping-a-local-business-right-content-text {
+  gap: 20px;
+}
+
+.helping-a-local-business-right-content-text h2 {
+  color: #4d4d4d;
+  text-transform: none;
+}
+
+.helping-a-local-business-right-content-text p {
+  color: #717171;
+}
+
 /* Media Queries */
 
 /* 2xl */
@@ -253,6 +293,13 @@
     font-size: 32px;
   }
   .learn-more-right-content-text p {
+    font-size: 14px;
+  }
+  /* Helping a local business */
+  .helping-a-local-business-right-content-text h2 {
+    font-size: 32px;
+  }
+  .helping-a-local-business-right-content-text p {
     font-size: 14px;
   }
 }
@@ -300,6 +347,13 @@
     gap: 5px;
   }
   .learn-more-right-content-text h2 {
+    font-size: 30px;
+  }
+  /* Helpig a local business */
+  .helping-a-local-business-content {
+    gap: 5px;
+  }
+  .helping-a-local-business-right-content-text h2 {
     font-size: 30px;
   }
 }
@@ -350,6 +404,13 @@
     width: 100%;
   }
   .learn-more-right-content-text p {
+    font-size: 12px;
+  }
+  /* Helping a local business */
+  .helping-a-local-business-left-content-banner img {
+    width: 100%;
+  }
+  .helping-a-local-business-right-content-text p {
     font-size: 12px;
   }
 }
@@ -407,6 +468,18 @@
     font-size: 22px;
   }
   .learn-more-right-content-text p {
+    font-size: 11px;
+  }
+  /* Helping a local business */
+  .helping-a-local-business-content {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .helping-a-local-business-right-content-text h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .helping-a-local-business-right-content-text p {
     font-size: 11px;
   }
 }
