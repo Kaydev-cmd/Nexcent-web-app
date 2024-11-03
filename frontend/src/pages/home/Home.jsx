@@ -87,6 +87,110 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Manage */}
+      <section className="manage">
+        <div className="container">
+          <div className="manage-content-wrapper">
+            <div className="manage-content">
+              <div className="manage-content-text-wrapper">
+                <div className="manage-content-text">
+                  <h2>
+                    Manage your entire community
+                    <br />
+                    in a single system
+                  </h2>
+                  <p>Who is Nextcent suitable for?</p>
+                </div>
+              </div>
+              <div className="manage-content-cards-wrapper">
+                <div className="manage-content-cards">
+                  {/* Card */}
+                  <div className="manage-content-card-wrapper">
+                    <div className="manage-content-card">
+                      <div className="manage-content-card-logo-wrapper">
+                        <div className="manage-content-card-logo">
+                          <img src="/images/home/Icon7.png" alt="Users" />
+                        </div>
+                      </div>
+                      <div className="manage-content-card-text-wrapper">
+                        <div className="manage-content-card-text">
+                          <h3>
+                            Membership
+                            <br />
+                            Organisations
+                          </h3>
+                          <p>
+                            Our membership management
+                            <br />
+                            software provides full automation of
+                            <br />
+                            membership renewals and payments
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Card */}
+                  <div className="manage-content-card-wrapper">
+                    <div className="manage-content-card">
+                      <div className="manage-content-card-logo-wrapper">
+                        <div className="manage-content-card-logo">
+                          <img src="/images/home/Icon-8.png" alt="Building" />
+                        </div>
+                      </div>
+                      <div className="manage-content-card-text-wrapper">
+                        <div className="manage-content-card-text">
+                          <h3>
+                            National
+                            <br />
+                            Associations
+                          </h3>
+                          <p>
+                            Our membership management
+                            <br />
+                            software provides full automation of
+                            <br />
+                            membership renewals and payments
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Card */}
+                  <div className="manage-content-card-wrapper">
+                    <div className="manage-content-card">
+                      <div className="manage-content-card-logo-wrapper">
+                        <div className="manage-content-card-logo">
+                          <img src="/images/home/Icon-9.png" alt="Hands" />
+                        </div>
+                      </div>
+                      <div className="manage-content-card-text-wrapper">
+                        <div className="manage-content-card-text">
+                          <h3>
+                            Clubs And
+                            <br />
+                            Groups
+                          </h3>
+                          <p>
+                            Our membership management
+                            <br />
+                            software provides full automation of
+                            <br />
+                            membership renewals and payments
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
