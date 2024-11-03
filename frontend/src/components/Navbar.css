@@ -60,7 +60,7 @@
   border: none;
   padding: 10px 30px;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .navbar-login-btn button:hover,
@@ -94,7 +94,7 @@
 }
 
 .navbar-signup-btn button:hover {
-  background-color: #000;
+  opacity: .8;
 }
 
 /* Media Queries */

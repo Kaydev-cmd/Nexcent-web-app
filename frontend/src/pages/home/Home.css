@@ -1,4 +1,5 @@
 /* Hero */
+/* Fix alignment bug for the mobile media query (<= 640px) */
 .hero {
   background-color: #f5f7fa;
 }
@@ -58,7 +59,7 @@
 }
 
 .hero-left-content-btn .register-btn button:hover {
-  background-color: #000;
+  opacity: 0.8;
 }
 
 .hero-content-swiper-icons {
@@ -180,6 +181,44 @@
   text-transform: none;
 }
 
+/* Learn More */
+.learn-more {
+  margin-top: 40px;
+}
+
+.learn-more-content,
+.learn-more-right-content,
+.learn-more-right-content-text {
+  display: flex;
+}
+
+.learn-more-right-content,
+.learn-more-right-content-text {
+  flex-direction: column;
+}
+
+.learn-more-content {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.learn-more-right-content-text h2 {
+  color: #4d4d4d;
+  text-transform: none;
+}
+
+.learn-more-right-content-text p {
+  color: #717171;
+}
+
+.learn-more-right-content {
+  gap: 40px;
+}
+
+.learn-more-right-content-text {
+  gap: 20px;
+}
+
 /* Media Queries */
 
 /* 2xl */
@@ -208,6 +247,13 @@
   /* Manage */
   .manage-content-card {
     width: 320px;
+  }
+  /* Learn More */
+  .learn-more-right-content-text h2 {
+    font-size: 32px;
+  }
+  .learn-more-right-content-text p {
+    font-size: 14px;
   }
 }
 
@@ -248,6 +294,13 @@
   }
   .manage-content-card-text h3 {
     font-size: 20px;
+  }
+  /* Learn More */
+  .learn-more-content {
+    gap: 5px;
+  }
+  .learn-more-right-content-text h2 {
+    font-size: 30px;
   }
 }
 
@@ -292,6 +345,13 @@
   .manage-content-text p {
     font-size: 12px;
   }
+  /* Learn More */
+  .learn-more-left-content-banner img {
+    width: 100%;
+  }
+  .learn-more-right-content-text p {
+    font-size: 12px;
+  }
 }
 
 /* sm */
@@ -300,13 +360,28 @@
     max-width: 475px;
   }
   /* Hero */
+  .hero-right-content-banner-wrapper,
+  .hero-content-swiper-icons {
+    display: none;
+  }
+  .hero-content,
+  .hero-left-content-btn .register-btn {
+    justify-content: center;
+  }
+  .hero-content {
+    padding: 60px 0px;
+  }
+  .hero-left-content-text h1,
+  .hero-left-content-text span p,
+  .hero-left-content-text p {
+    text-align: center;
+  }
   .hero-left-content-text h1,
   .hero-left-content-text span p {
     font-size: 22px;
   }
   .hero-left-content-btn .register-btn {
     display: flex;
-    justify-content: center;
   }
   .hero-left-content-btn .register-btn button {
     padding: 10px 20px;
@@ -322,29 +397,24 @@
   .manage-content-text h2 {
     font-size: 22px;
   }
+  /* Learn More */
+  .learn-more-content {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .learn-more-right-content-text h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .learn-more-right-content-text p {
+    font-size: 11px;
+  }
 }
 
 /* xs */
 @media (max-width: 475px) {
   .container {
     width: 100%;
-  }
-  /* Hero */
-  .hero-right-content-banner-wrapper,
-  .hero-content-swiper-icons {
-    display: none;
-  }
-  .hero-left-content-btn .register-btn {
-    position: relative;
-    left: 8px;
-  }
-  .hero-content {
-    justify-content: center;
-  }
-  .hero-left-content-text h1,
-  .hero-left-content-text span p,
-  .hero-left-content-text p {
-    text-align: center;
   }
   /* Our Clients */
   .our-clients-content-text p {
