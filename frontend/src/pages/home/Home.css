@@ -1,3 +1,5 @@
+/* Apply font families for text throughout the project */
+
 /* Hero */
 /* Fix alignment bug for the mobile media query (<= 640px) */
 .hero {
@@ -219,6 +221,126 @@
   gap: 20px;
 }
 
+/* Reinvent */
+.reinvent {
+  margin-top: 40px;
+  background-color: #f5f7fa;
+}
+
+.reinvent-content,
+.reinvent-left-content-text,
+.reinvent-right-content,
+.reinvent-right-upper-content,
+.reinvent-right-lower-content,
+.reinvent-right-upper-content-members,
+.reinvent-right-upper-content-clubs,
+.reinvent-right-lower-content-event-bookings,
+.reinvent-right-lower-content-payments {
+  display: flex;
+}
+
+.reinvent-content,
+.reinvent-right-upper-content,
+.reinvent-right-lower-content,
+.reinvent-right-upper-content-members,
+.reinvent-right-upper-content-clubs,
+.reinvent-right-lower-content-event-bookings,
+.reinvent-right-lower-content-payments {
+  align-items: center;
+}
+
+.reinvent-left-content-text,
+.reinvent-right-content {
+  flex-direction: column;
+}
+
+.reinvent-right-upper-content-members-right-content-text h3,
+.reinvent-right-upper-content-clubs-right-content-text h3,
+.reinvent-right-lower-content-event-bookings-right-content-text h3,
+.reinvent-right-lower-content-payments-right-content-text h3,
+.reinvent-left-content-text h2,
+.reinvent-right-upper-content-members-right-content-text p,
+.reinvent-right-upper-content-clubs-right-content-text p,
+.reinvent-right-lower-content-event-bookings-right-content-text p,
+.reinvent-right-lower-content-payments-right-content-text p {
+  color: #4d4d4d;
+}
+
+.reinvent-content {
+  justify-content: space-around;
+  padding: 60px 20px;
+}
+
+.reinvent-left-content-text {
+  gap: 10px;
+}
+
+.reinvent-left-content-text h2 {
+  text-transform: none;
+}
+
+.reinvent-left-content-text span {
+  color: #4caf4f;
+}
+
+.reinvent-left-content-text p {
+  color: #18191F;
+}
+
+.reinvent-right-content {
+  gap: 40px;
+}
+
+.reinvent-right-upper-content,
+.reinvent-right-lower-content {
+  gap: 80px;
+}
+
+.reinvent-right-upper-content-members,
+.reinvent-right-upper-content-clubs,
+.reinvent-right-lower-content-event-bookings,
+.reinvent-right-lower-content-payments {
+  gap: 16px;
+}
+
+/* Helping a local business */
+.helping-a-local-business {
+  margin-top: 40px;
+}
+
+.helping-a-local-business-content,
+.helping-a-local-business-right-content,
+.helping-a-local-business-right-content-text {
+  display: flex;
+}
+
+.helping-a-local-business-right-content,
+.helping-a-local-business-right-content-text {
+  flex-direction: column;
+}
+
+.helping-a-local-business-content {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.helping-a-local-business-right-content {
+  gap: 40px;
+}
+
+.helping-a-local-business-right-content-text {
+  gap: 20px;
+}
+
+.helping-a-local-business-right-content-text h2 {
+  color: #4d4d4d;
+  text-transform: none;
+}
+
+.helping-a-local-business-right-content-text p {
+  color: #717171;
+}
+
 /* Media Queries */
 
 /* 2xl */
@@ -253,6 +375,13 @@
     font-size: 32px;
   }
   .learn-more-right-content-text p {
+    font-size: 14px;
+  }  
+  /* Helping a local business */
+  .helping-a-local-business-right-content-text h2 {
+    font-size: 32px;
+  }
+  .helping-a-local-business-right-content-text p {
     font-size: 14px;
   }
 }
@@ -300,6 +429,38 @@
     gap: 5px;
   }
   .learn-more-right-content-text h2 {
+    font-size: 30px;
+  }
+  /* Reinvent */
+  .reinvent-left-content-text h2 {
+    font-size: 30px;
+  }
+  .reinvent-content {
+    gap: 20px;
+  }
+  .reinvent-right-upper-content-members-left-content img,
+  .reinvent-right-upper-content-clubs-left-content img,
+  .reinvent-right-lower-content-event-bookings-left-content img,
+  .reinvent-right-lower-content-payments-left-content img {
+    width: 80%;
+  }
+  .reinvent-right-upper-content-members-right-content-text h3,
+  .reinvent-right-upper-content-clubs-right-content-text h3,
+  .reinvent-right-lower-content-event-bookings-right-content-text h3,
+  .reinvent-right-lower-content-payments-right-content-text h3 {
+    font-size: 22px;
+  }
+  .reinvent-right-upper-content-members-right-content-text p,
+  .reinvent-right-upper-content-clubs-right-content-text p,
+  .reinvent-right-lower-content-event-bookings-right-content-text p,
+  .reinvent-right-lower-content-payments-right-content-text p {
+    font-size: 12px;
+  }
+  /* Helpig a local business */
+  .helping-a-local-business-content {
+    gap: 5px;
+  }
+  .helping-a-local-business-right-content-text h2 {
     font-size: 30px;
   }
 }
@@ -350,6 +511,32 @@
     width: 100%;
   }
   .learn-more-right-content-text p {
+    font-size: 12px;
+  }
+  /* Reinvent */
+  .reinvent-right-upper-content-members-left-content img,
+  .reinvent-right-upper-content-clubs-left-content img,
+  .reinvent-right-lower-content-event-bookings-left-content img,
+  .reinvent-right-lower-content-payments-left-content img {
+    width: 28px;
+  }
+  .reinvent-left-content-text h2 {
+    font-size: 24px;
+  }
+  .reinvent-left-content-text p {
+    font-size: 12px;
+  }
+  .reinvent-right-upper-content-members-right-content-text p,
+  .reinvent-right-upper-content-clubs-right-content-text p,
+  .reinvent-right-lower-content-event-bookings-right-content-text p,
+  .reinvent-right-lower-content-payments-right-content-text p {
+    font-size: 11px;
+  }
+  /* Helping a local business */
+  .helping-a-local-business-left-content-banner img {
+    width: 100%;
+  }
+  .helping-a-local-business-right-content-text p {
     font-size: 12px;
   }
 }
@@ -409,6 +596,51 @@
   .learn-more-right-content-text p {
     font-size: 11px;
   }
+  /* Reinvent */
+  .reinvent-content {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .reinvent-left-content-text h2,
+  .reinvent-left-content-text p {
+    text-align: center;
+  }
+  .reinvent-left-content-text h2 {
+    font-size: 38px;
+  }
+  .reinvent-left-content-text p {
+    font-size: 16px;
+  }
+  .reinvent-right-upper-content-members-left-content img,
+  .reinvent-right-upper-content-clubs-left-content img,
+  .reinvent-right-lower-content-event-bookings-left-content img,
+  .reinvent-right-lower-content-payments-left-content img {
+    width: 80%;
+  }
+  .reinvent-right-upper-content-members-right-content-text h3,
+  .reinvent-right-upper-content-clubs-right-content-text h3,
+  .reinvent-right-lower-content-event-bookings-right-content-text h3,
+  .reinvent-right-lower-content-payments-right-content-text h3 {
+    font-size: 28px;
+  }
+  .reinvent-right-upper-content-members-right-content-text p,
+  .reinvent-right-upper-content-clubs-right-content-text p,
+  .reinvent-right-lower-content-event-bookings-right-content-text p,
+  .reinvent-right-lower-content-payments-right-content-text p {
+    font-size: 14px;
+  }
+  /* Helping a local business */
+  .helping-a-local-business-content {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .helping-a-local-business-right-content-text h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .helping-a-local-business-right-content-text p {
+    font-size: 11px;
+  }
 }
 
 /* xs */
@@ -423,5 +655,32 @@
   /* Manage */
   .manage-content-card {
     width: 280px;
+  }
+  /* Reinvent */
+  .reinvent-left-content-text h2 {
+    font-size: 26px;
+  }
+  .reinvent-left-content-text p,
+  .reinvent-right-upper-content-members-right-content-text p,
+  .reinvent-right-upper-content-clubs-right-content-text p,
+  .reinvent-right-lower-content-event-bookings-right-content-text p,
+  .reinvent-right-lower-content-payments-right-content-text p {
+    font-size: 12px;
+  }
+  .reinvent-right-upper-content-members-left-content img,
+  .reinvent-right-upper-content-clubs-left-content img,
+  .reinvent-right-lower-content-event-bookings-left-content img,
+  .reinvent-right-lower-content-payments-left-content img {
+    width: 30px;
+  }
+  .reinvent-right-upper-content-members-right-content-text h3,
+  .reinvent-right-upper-content-clubs-right-content-text h3,
+  .reinvent-right-lower-content-event-bookings-right-content-text h3,
+  .reinvent-right-lower-content-payments-right-content-text h3 {
+    font-size: 20px;
+  }
+  .reinvent-right-upper-content,
+  .reinvent-right-lower-content {
+    gap: 20px;
   }
 }
