@@ -469,7 +469,7 @@ export const Home = () => {
       </section>
 
       {/* Marketing */}
-      <div className="marketing">
+      <section className="marketing">
         <div className="container">
           <div className="marketing-content-wrapper">
             <div className="marketing-content">
@@ -577,7 +577,30 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* Demo */}
+      <section className="demo">
+        <div className="container">
+          <div className="demo-content-wrapper">
+            <div className="demo-content">
+              <div className="demo-content-text-wrapper">
+                <div className="demo-content-text">
+                  <h2>
+                    Pellentesque suscipit<br/>
+                    fringilla libero eu.
+                  </h2>
+                </div>
+              </div>
+              <div className="demo-content-btn-wrapper">
+                <div className="demo-content-btn">
+                  <button>Get a demo <img src="/images/home/Right-white.png" alt="Right Arrow" /></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
