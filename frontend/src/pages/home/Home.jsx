@@ -467,6 +467,117 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Marketing */}
+      <div className="marketing">
+        <div className="container">
+          <div className="marketing-content-wrapper">
+            <div className="marketing-content">
+              <div className="marketing-content-text-wrapper">
+                <div className="marketing-content-text">
+                  <h2>Caring is the new marketing</h2>
+                  <p>
+                    The Nexcent blog is the best place to read about the latest
+                    membership insights,
+                    <br />
+                    trends and more. See who&#39;s joining the community, read
+                    about how our community
+                    <br />
+                    are increasing their membership income and lots more.
+                  </p>
+                </div>
+              </div>
+              <div className="marketing-content-cards-wrapper">
+                <div className="marketing-content-cards">
+                  {/* Card */}
+                  <div className="marketing-content-card-wrapper">
+                    <div className="marketing-content-card">
+                      <div className="marketing-content-card-text-wrapper">
+                        <div className="marketing-content-card-text">
+                          <p>
+                            Creating Streamlined
+                            <br />
+                            Safeguarding Processes with
+                            <br />
+                            OneRen
+                          </p>
+                        </div>
+                      </div>
+                      <div className="marketing-content-card-link-wrapper">
+                        <div className="marketing-content-card-link">
+                          <p>
+                            <a href="">Read More</a>
+                            <img
+                              src="/images/home/Right.png"
+                              alt="Right Arrow"
+                            />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Card */}
+                  <div className="marketing-content-card-wrapper">
+                    <div className="marketing-content-card">
+                      <div className="marketing-content-card-text-wrapper">
+                        <div className="marketing-content-card-text">
+                          <p>
+                            What are your safeguarding
+                            <br />
+                            responsibilities and how can
+                            <br />
+                            you manage them?
+                          </p>
+                        </div>
+                      </div>
+                      <div className="marketing-content-card-link-wrapper">
+                        <div className="marketing-content-card-link">
+                          <p>
+                            <a href="">Read More</a>
+                            <img
+                              src="/images/home/Right.png"
+                              alt="Right Arrow"
+                            />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Card */}
+                  <div className="marketing-content-card-wrapper">
+                    <div className="marketing-content-card">
+                      <div className="marketing-content-card-text-wrapper">
+                        <div className="marketing-content-card-text">
+                          <p>
+                            Revamping the Membership
+                            <br />
+                            Model with Triathlon
+                            <br />
+                            Australia
+                          </p>
+                        </div>
+                      </div>
+                      <div className="marketing-content-card-link-wrapper">
+                        <div className="marketing-content-card-link">
+                          <p>
+                            <a href="">Read More</a>
+                            <img
+                              src="/images/home/Right.png"
+                              alt="Right Arrow"
+                            />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

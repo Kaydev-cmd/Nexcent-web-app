@@ -380,7 +380,7 @@
 }
 
 .customers-content {
-  padding: 30px;
+  padding: 20px 100px;
 }
 
 .customers-content-text p {
@@ -405,6 +405,76 @@
 }
 
 .customers-content-logos-and-link p a:hover {
+  text-decoration: underline;
+}
+
+/* Marketing */
+/* Add box shadow for the cards */
+.marketing {
+  margin-top: 40px;
+}
+
+.marketing-content-cards-wrapper {
+  margin-top: 60px;
+}
+
+.marketing-content-cards,
+.marketing-content-card,
+.marketing-content-card-link p,
+.marketing-content-text {
+  display: flex;
+}
+
+.marketing-content-text,
+.marketing-content-card-text {
+  text-align: center;
+}
+
+.marketing-content-card-link p,
+.marketing-content-card {
+  align-items: center;
+}
+
+.marketing-content-text,
+.marketing-content-card {
+  flex-direction: column;
+}
+
+.marketing-content-text p,
+.marketing-content-card-text p {
+  color: #717171;
+}
+
+.marketing-content-text,
+.marketing-content-card {
+  gap: 16px;
+}
+
+.marketing-content-cards {
+  justify-content: space-around;
+}
+
+.marketing-content-text h2 {
+  color: #4d4d4d;
+}
+
+.marketing-content-card {
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+  justify-content: center;
+  background-color: #edeff1;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.marketing-content-card-link p a {
+  color: #4caf4f;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.marketing-content-card-link p a:hover {
   text-decoration: underline;
 }
 
@@ -541,6 +611,16 @@
   .customers-content-text p {
     font-size: 14px;
   }
+  /* Marketing */
+  .marketing-content-card {
+    width: 240px;
+  }
+  .marketing-content-text h2 {
+    font-size: 30px;
+  }
+  .marketing-content-text p {
+    font-size: 12px;
+  }
 }
 
 /* md */
@@ -624,6 +704,9 @@
   .customers-content-text p {
     font-size: 12px;
   }
+  .customers-content-logos-and-link {
+    gap: 2px;
+  }
   .customers-content-logos-and-link img {
     width: 40px;
   }
@@ -632,6 +715,10 @@
   }
   .customers-content-logos-and-link p img {
     width: 24px;
+  }
+  /* Marketing */
+  .marketing-content-card {
+    width: 200px;
   }
 }
 
@@ -736,6 +823,9 @@
     font-size: 11px;
   }
   /* Customers */
+  .customers-content {
+    padding: 20px;
+  }
   .customers-content-logos-and-link img {
     width: 30px;
   }
@@ -744,6 +834,20 @@
   }
   .customers-content-logos-and-link p img {
     width: 20px;
+  }
+  /* Marketing */
+  .marketing-content-card {
+    width: 300px;
+  }
+  .marketing-content-cards {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .marketing-content-text h2 {
+    font-size: 22px;
+  }
+  .marketing-content-text p {
+    font-size: 11px;
   }
 }
 
@@ -800,5 +904,15 @@
   }
   .customers-content-logos-and-link p img {
     width: 18px;
+  }
+  /* Marketing */
+  .marketing-content-card {
+    width: 280px;
+  }
+  .marketing-content-card-text p {
+    font-size: 16px;
+  }
+  .marketing-content-card-link p {
+    font-size: 14px;
   }
 }
