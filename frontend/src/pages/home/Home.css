@@ -409,7 +409,6 @@
 }
 
 /* Marketing */
-/* Add box shadow for the cards */
 .marketing {
   margin-top: 40px;
 }
@@ -458,6 +457,10 @@
   color: #4d4d4d;
 }
 
+.marketing-content-card-link p {
+  gap: 4px;
+}
+
 .marketing-content-card {
   width: 300px;
   height: 200px;
@@ -476,6 +479,52 @@
 
 .marketing-content-card-link p a:hover {
   text-decoration: underline;
+}
+
+/* Demo */
+.demo {
+  margin-top: 40px;
+  background-color: #f5f7fa;
+}
+
+.demo-content,
+.demo-content-btn button {
+  display: flex;
+}
+
+.demo-content,
+.demo-content-btn button {
+  align-items: center;
+}
+
+.demo-content {
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 40px;
+}
+
+.demo-content-text {
+  text-align: center;
+}
+
+.demo-content-text h2 {
+  color: #263238;
+  font-size: 48px;
+}
+
+.demo-content-btn button {
+  background-color: #4caf4f;
+  gap: 12px;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 40px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.demo-content-btn button:hover {
+  opacity: 0.8;
 }
 
 /* Media Queries */
@@ -620,6 +669,10 @@
   }
   .marketing-content-text p {
     font-size: 12px;
+  }
+  /* Demo */
+  .demo-content-text h2 {
+    font-size: 38px;
   }
 }
 
@@ -849,6 +902,13 @@
   .marketing-content-text p {
     font-size: 11px;
   }
+  /* Demo */
+  .demo-content-text h2 {
+    font-size: 28px;
+  }
+  .demo-content-btn button {
+    padding: 16px 24px;
+  }
 }
 
 /* xs */
@@ -914,5 +974,12 @@
   }
   .marketing-content-card-link p {
     font-size: 14px;
+  }
+  /* Demo */
+  .demo-content-text h2 {
+    font-size: 16px;
+  }
+  .demo-content-btn button {
+    padding: 16px 20px;
   }
 }
