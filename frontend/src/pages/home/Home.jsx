@@ -14,7 +14,6 @@ export const Home = () => {
   return (
     <>
       {/* Hero */}
-      {/* Ticket #2: Add interactive navigation for links across the page */}
       <section className="hero">
         <div className="container">
           <Swiper
@@ -171,7 +170,7 @@ export const Home = () => {
       </section>
 
       {/* Our Clients */}
-      <section className="our-clients">
+      <section className="our-clients" id="ourClients">
         <div className="container">
           <div className="our-clients-content-wrapper">
             <div className="our-clients-content">
@@ -198,7 +197,7 @@ export const Home = () => {
       </section>
 
       {/* Manage */}
-      <section className="manage">
+      <section className="manage" id="manage">
         <div className="container">
           <div className="manage-content-wrapper">
             <div className="manage-content">
@@ -302,7 +301,7 @@ export const Home = () => {
       </section>
 
       {/* Learn More */}
-      <section className="learn-more">
+      <section className="learn-more" id="learnMore">
         <div className="container">
           <div className="learn-more-content-wrapper">
             <div className="learn-more-content">
@@ -348,7 +347,7 @@ export const Home = () => {
       </section>
 
       {/* Reinvent */}
-      <section className="reinvent">
+      <section className="reinvent" id="reinvent">
         <div className="container">
           <div className="reinvent-content-wrapper">
             <div className="reinvent-content">
@@ -465,7 +464,7 @@ export const Home = () => {
       </section>
 
       {/* Helping a local business */}
-      <section className="helping-a-local-business">
+      <section className="helping-a-local-business" id="helpingALocalBusiness">
         <div className="container">
           <div className="helping-a-local-business-content-wrapper">
             <div className="helping-a-local-business-content">
@@ -519,7 +518,7 @@ export const Home = () => {
       </section>
 
       {/* Customers */}
-      <section className="customers">
+      <section className="customers" id="customers">
         <div className="container">
           <div className="customers-content-wrapper">
             <div className="customers-content">
@@ -577,7 +576,7 @@ export const Home = () => {
       </section>
 
       {/* Marketing */}
-      <section className="marketing">
+      <section className="marketing" id="marketing">
         <div className="container">
           <div className="marketing-content-wrapper">
             <div className="marketing-content">
@@ -688,7 +687,7 @@ export const Home = () => {
       </section>
 
       {/* Demo */}
-      <section className="demo">
+      <section className="demo" id="demo">
         <div className="container">
           <div className="demo-content-wrapper">
             <div className="demo-content">
