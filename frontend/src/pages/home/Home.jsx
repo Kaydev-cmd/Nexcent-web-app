@@ -587,14 +587,18 @@ export const Home = () => {
               <div className="demo-content-text-wrapper">
                 <div className="demo-content-text">
                   <h2>
-                    Pellentesque suscipit<br/>
+                    Pellentesque suscipit
+                    <br />
                     fringilla libero eu.
                   </h2>
                 </div>
               </div>
               <div className="demo-content-btn-wrapper">
                 <div className="demo-content-btn">
-                  <button>Get a demo <img src="/images/home/Right-white.png" alt="Right Arrow" /></button>
+                  <button>
+                    Get a demo{" "}
+                    <img src="/images/home/Right-white.png" alt="Right Arrow" />
+                  </button>
                 </div>
               </div>
             </div>

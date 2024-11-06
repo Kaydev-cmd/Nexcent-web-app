@@ -1,0 +1,215 @@
+.footer {
+  background-color: #263238;
+}
+
+.footer-content,
+.footer-left-content,
+.footer-right-content,
+.footer-left-content-heading-and-logo a,
+.footer-left-content-text,
+.footer-left-content-icons,
+.footer-right-company-content,
+.footer-right-support-content,
+.footer-right-stay-up-to-date-content,
+.footer-right-company-content-links,
+.footer-right-support-content-links,
+.footer-right-stay-up-to-date-content-email-address {
+  display: flex;
+}
+
+.footer-left-content,
+.footer-left-content-text,
+.footer-right-company-content,
+.footer-right-support-content,
+.footer-right-stay-up-to-date-content,
+.footer-right-company-content-links,
+.footer-right-support-content-links {
+  flex-direction: column;
+}
+
+.footer-left-content-heading-and-logo a,
+.footer-right-stay-up-to-date-content-email-address {
+  align-items: center;
+}
+
+.footer-left-content-heading-and-logo h2,
+.footer-left-content-text,
+.footer-right-company-content-heading h3,
+.footer-right-support-content-heading h3,
+.footer-right-stay-up-to-date-content-heading h3,
+.footer-right-company-content-links p a,
+.footer-right-support-content-links p a {
+  color: #fff;
+}
+
+.footer-right-company-content,
+.footer-right-support-content,
+.footer-right-stay-up-to-date-content,
+.footer-right-company-content-links,
+.footer-right-support-content-links,
+.footer-right-company-content-links,
+.footer-right-support-content-links {
+  gap: 16px;
+}
+
+.footer-right-company-content-heading h3,
+.footer-right-support-content-heading h3,
+.footer-right-stay-up-to-date-content-heading h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-left-content-heading-and-logo a,
+.footer-right-company-content-links p a,
+.footer-right-support-content-links p a {
+  text-decoration: none;
+}
+
+.footer-content {
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+
+.footer-left-content {
+  gap: 26px;
+}
+
+.footer-right-content {
+  gap: 60px;
+}
+
+.footer-left-content-heading-and-logo a {
+  gap: 12px;
+}
+
+.footer-left-content-heading-and-logo h2 {
+  text-transform: none;
+  font-size: 26px;
+}
+
+.footer-left-content-text {
+  gap: 8px;
+}
+
+.footer-left-content-text p {
+  font-size: 12px;
+}
+
+.footer-left-content-icons {
+  gap: 20px;
+}
+
+.footer-right-company-content-links p a,
+.footer-right-support-content-links p a {
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-right-company-content-links p a:hover,
+.footer-right-support-content-links p a:hover {
+  text-decoration: underline;
+}
+
+.footer-right-stay-up-to-date-content-email-address input {
+  padding: 12px 10px;
+  width: 300px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  .footer-content {
+    padding: 60px 20px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .footer-content {
+    gap: 80px;
+    padding: 60px 0px;
+  }
+  .footer-right-stay-up-to-date-content-email-address input {
+    width: 200px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .footer-left-content-heading-and-logo a h2 {
+    font-size: 20px;
+  }
+  .footer-content {
+    gap: 20px;
+  }
+  .footer-right-company-content-heading h3,
+  .footer-right-support-content-heading h3,
+  .footer-right-stay-up-to-date-content-heading h3 {
+    font-size: 16px;
+  }
+  .footer-left-content-icons a img {
+    width: 20px;
+  }
+  .footer-left-content-text p {
+    font-size: 11px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  .footer-content,
+  .footer-right-content,
+  .footer-left-content {
+    align-items: center;
+  }
+  .footer-right-company-content-links,
+  .footer-right-support-content-links,
+  .footer-right-support-content-heading,
+  .footer-right-stay-up-to-date-content-heading,
+  .footer-left-content p {
+    text-align: center;
+  }
+  .footer-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 40px;
+  }
+  .footer-right-content {
+    flex-direction: column;
+  }
+  .footer-right-stay-up-to-date-content-email-address input {
+    width: 300px;
+  }
+  .footer-left-content-icons a img {
+    width: 100%;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}
