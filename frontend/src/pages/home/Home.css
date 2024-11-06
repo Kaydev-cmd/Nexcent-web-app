@@ -6,6 +6,12 @@
   background-color: #f5f7fa;
 }
 
+.hero-swiper {
+  --swiper-pagination-color: #4caf4f;
+  --swiper-pagination-bullet-inactive-color: #4d4d4d;
+  --swiper-pagination-bullet-size: 12px;
+}
+
 .hero-content,
 .hero-left-content,
 .hero-left-content-text,
@@ -781,6 +787,9 @@
     max-width: 475px;
   }
   /* Hero */
+  .hero-swiper {
+    --swiper-pagination-bullet-size: 10px;
+  }
   .hero-right-content-banner-wrapper,
   .hero-content-swiper-icons {
     display: none;
