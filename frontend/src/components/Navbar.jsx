@@ -10,7 +10,7 @@ export const Navbar = () => {
         <div className="navbar-wrapper">
           <div className="navbar-header-wrapper">
             <div className="navbar-header">
-              <a href="">
+              <a href="/">
                 <div className="navbar-logo-wrapper">
                   <div className="navbar-logo">
                     <img src="/images/home/Icon.png" alt="Nexcent Logo" />

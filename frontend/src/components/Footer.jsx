@@ -12,7 +12,7 @@ export const Footer = () => {
                 <div className="footer-left-content">
                   <div className="footer-left-content-heading-and-logo-wrapper">
                     <div className="footer-left-content-heading-and-logo">
-                      <a href="">
+                      <a href="/">
                         <img src="/images/home/Icon.png" alt="Company Logo" />
                         <h2>Nexcent</h2>
                       </a>
