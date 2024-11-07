@@ -1,6 +1,5 @@
 
 /* Hero */
-/* Fix alignment bug for the mobile media query (<= 640px) */
 .hero {
   background-color: #f5f7fa;
 }
@@ -789,31 +788,19 @@
   .hero-swiper {
     --swiper-pagination-bullet-size: 10px;
   }
-  .hero-right-content-banner-wrapper,
-  .hero-content-swiper-icons {
+  .hero-right-content-wrapper {
     display: none;
   }
-  .hero-content,
-  .hero-left-content-btn .register-btn {
+  .hero-content-wrapper {
+    display: flex;
     justify-content: center;
   }
-  .hero-content {
-    padding: 60px 0px;
+  .hero-left-content,
+  .hero-left-content-text {
+    align-items: center;
   }
-  .hero-left-content-text h1,
-  .hero-left-content-text span p,
-  .hero-left-content-text p {
+  .hero-left-content-text {
     text-align: center;
-  }
-  .hero-left-content-text h1,
-  .hero-left-content-text span p {
-    font-size: 22px;
-  }
-  .hero-left-content-btn .register-btn {
-    display: flex;
-  }
-  .hero-left-content-btn .register-btn button {
-    padding: 10px 20px;
   }
   /* Our Clients */
   .our-clients-content-text h2 {

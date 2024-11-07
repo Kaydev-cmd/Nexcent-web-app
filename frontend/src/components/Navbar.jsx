@@ -5,7 +5,6 @@ import { RxHamburgerMenu } from "react-icons/rx";
 export const Navbar = () => {
   return (
     // Ticket #1: Add dropdown using useState
-    // Ticket #2: Add interactive navigation for links across the page
     <section className="navbar">
       <div className="container">
         <div className="navbar-wrapper">
@@ -33,19 +32,19 @@ export const Navbar = () => {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="">Services</a>
+                    <a href="#">Services</a>
                   </li>
                   <li>
-                    <a href="">Feature</a>
+                    <a href="#">Feature</a>
                   </li>
                   <li>
-                    <a href="">Product</a>
+                    <a href="#">Product</a>
                   </li>
                   <li>
-                    <a href="">Testimonial</a>
+                    <a href="#">Testimonial</a>
                   </li>
                   <li>
-                    <a href="">FAQ</a>
+                    <a href="#">FAQ</a>
                   </li>
                 </ul>
               </nav>
