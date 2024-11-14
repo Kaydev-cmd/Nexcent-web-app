@@ -1,15 +1,15 @@
 /* Ticket #1: Resize the hamburger menu. */
 
-.hamburger-menu-wrapper {
+.navbar-wrapper .menu {
   display: none;
 }
 
 .navbar,
-.navbar-login-btn button {
+.navbar-wrapper .login-btn {
   background-color: #f5f7fa;
 }
 
-.navbar-heading h1 {
+.navbar-wrapper .navbar-header h1 {
   font-size: 18px;
   text-transform: capitalize;
   color: #263238;
@@ -40,31 +40,31 @@
 }
 
 .navbar-links nav ul li a,
-.navbar-login-btn button,
-.navbar-signup-btn button {
+.navbar-wrapper .login-btn,
+.navbar-wrapper .signup-btn {
   transition: 0.3s ease-in-out;
 }
 
 .navbar-links nav ul li a:hover,
-.navbar-login-btn button {
+.navbar-wrapper .login-btn {
   color: #4caf4f;
 }
 
-.navbar-login-btn button:hover,
-.navbar-signup-btn button {
+.navbar-wrapper .login-btn:hover,
+.navbar-wrapper .signup-btn {
   color: #fff;
 }
 
-.navbar-login-btn button,
-.navbar-signup-btn button {
+.navbar-wrapper .login-btn,
+.navbar-wrapper .signup-btn {
   border: none;
   padding: 10px 30px;
   cursor: pointer;
   border-radius: 6px;
 }
 
-.navbar-login-btn button:hover,
-.navbar-signup-btn button {
+.navbar-wrapper .login-btn:hover,
+.navbar-wrapper .signup-btn {
   background-color: #4caf4f;
 }
 
@@ -93,8 +93,8 @@
   gap: 20px;
 }
 
-.navbar-signup-btn button:hover {
-  opacity: .8;
+.navbar-wrapper .signup-btn:hover {
+  opacity: 0.8;
 }
 
 /* Media Queries */
@@ -121,17 +121,17 @@
   .container {
     max-width: 768px;
   }
-  .navbar-header a .navbar-logo img {
+  .navbar-wrapper .navbar-header img {
     width: 20px;
   }
-  .navbar-heading h1 {
+  .navbar-wrapper .navbar-header h1 {
     font-size: 16px;
   }
   .navbar-links nav ul li {
     font-size: 12px;
   }
-  .navbar-login-btn button,
-  .navbar-signup-btn button {
+  .navbar-wrapper .login-btn,
+  .navbar-wrapper .signup-btn {
     padding: 10px;
   }
 }
@@ -145,8 +145,7 @@
   .navbar-links nav ul {
     display: none;
   }
-  .hamburger-menu-wrapper,
-  .hamburger-menu {
+  .navbar-wrapper .menu {
     display: flex;
   }
 }
