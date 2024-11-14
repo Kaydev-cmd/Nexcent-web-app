@@ -111,25 +111,19 @@ export const Home = () => {
       {/* Our Clients */}
       <section className="our-clients" id="ourClients">
         <div className="container">
-          <div className="our-clients-content-wrapper">
-            <div className="our-clients-content">
-              <div className="our-clients-content-text-wrapper">
-                <div className="our-clients-content-text">
-                  <h2>Our Clients</h2>
-                  <p>We have been working with some Fortune 500&#43; clients</p>
-                </div>
-              </div>
-              <div className="our-clients-content-icons-wrapper">
-                <div className="our-clients-content-icons">
-                  <img src="/images/home/Logo.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-1.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-2.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-3.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-4.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-5.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-6.png" alt="Company Logo" />
-                </div>
-              </div>
+          <div className="our-clients-content">
+            <div className="text">
+              <h2>Our Clients</h2>
+              <p>We have been working with some Fortune 500&#43; clients</p>
+            </div>
+            <div className="our-clients-content-icons">
+              <img src="/images/home/Logo.png" alt="Company Logo" />
+              <img src="/images/home/Logo-1.png" alt="Company Logo" />
+              <img src="/images/home/Logo-2.png" alt="Company Logo" />
+              <img src="/images/home/Logo-3.png" alt="Company Logo" />
+              <img src="/images/home/Logo-4.png" alt="Company Logo" />
+              <img src="/images/home/Logo-5.png" alt="Company Logo" />
+              <img src="/images/home/Logo-6.png" alt="Company Logo" />
             </div>
           </div>
         </div>
