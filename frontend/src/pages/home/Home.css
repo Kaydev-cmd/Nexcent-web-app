@@ -1,4 +1,3 @@
-
 /* Hero */
 .hero {
   background-color: #f5f7fa;
@@ -12,18 +11,18 @@
 
 .hero-content,
 .hero-left-content,
-.hero-left-content-text,
+.hero-left-content .text,
 .hero-content-swiper-icons {
   display: flex;
 }
 
 .hero-left-content,
-.hero-left-content-text {
+.hero-left-content .text {
   flex-direction: column;
 }
 
-.hero-left-content-text h1,
-.hero-left-content-text span p {
+.hero-left-content .text h1,
+.hero-left-content .text span p {
   font-size: 60px;
 }
 
@@ -37,25 +36,26 @@
   gap: 40px;
 }
 
-.hero-left-content-text {
+.hero-left-content .text {
   gap: 20px;
 }
 
-.hero-left-content-text h1 {
+.hero-left-content .text h1 {
   text-transform: none;
   color: #4d4d4d;
 }
 
-.hero-left-content-text span p {
+.hero-left-content .text span p {
   color: #4caf4f;
 }
 
-.hero-left-content-text p {
+.hero-left-content .text p {
   color: #717171;
 }
 
-.hero-left-content-btn .register-btn button {
-  padding: 14px 40px;
+.hero-left-content .register-btn {
+  width: 140px;
+  padding: 14px 0px;
   background-color: #4caf4f;
   color: #fff;
   border: none;
@@ -64,7 +64,7 @@
   transition: 0.3s ease-in-out;
 }
 
-.hero-left-content-btn .register-btn button:hover {
+.hero-left-content .register-btn:hover {
   opacity: 0.8;
 }
 
@@ -549,12 +549,12 @@
   .hero-content {
     padding: 60px 4px;
   }
-  .hero-left-content-text h1,
-  .hero-left-content-text span p {
+  .hero-left-content .text h1,
+  .hero-left-content .text span p {
     font-size: 48px;
   }
-  .hero-right-content-banner img {
-    width: 90%;
+  .hero-content .hero-banner {
+    width: 30%;
   }
   /* Manage */
   .manage-content-card {
@@ -589,11 +589,11 @@
   .hero-content {
     gap: 20px;
   }
-  .hero-left-content-text h1,
-  .hero-left-content-text span p {
+  .hero-left-content .text h1,
+  .hero-left-content .text span p {
     font-size: 34px;
   }
-  .hero-left-content-text p {
+  .hero-left-content .text p {
     font-size: 14px;
   }
   /* Our Clients */
@@ -686,18 +686,19 @@
     max-width: 640px;
   }
   /* Hero */
-  .hero-right-content-banner img {
-    width: 100%;
+  .hero-content .hero-banner {
+    width: 40%;
   }
-  .hero-left-content-text h1,
-  .hero-left-content-text span p {
+  .hero-left-content .text h1,
+  .hero-left-content .text span p {
     font-size: 30px;
   }
-  .hero-left-content-text p {
+  .hero-left-content .text p {
     font-size: 12px;
   }
-  .hero-left-content-btn .register-btn button {
-    padding: 12px 30px;
+  .hero-left-content .register-btn {
+    padding: 12px 0px;
+    width: 100px;
   }
   /* Our Clients */
   .our-clients-content-text h2 {
@@ -788,18 +789,18 @@
   .hero-swiper {
     --swiper-pagination-bullet-size: 10px;
   }
-  .hero-right-content-wrapper {
+  .hero-content .hero-banner {
     display: none;
   }
-  .hero-content-wrapper {
+  .hero-content {
     display: flex;
     justify-content: center;
   }
   .hero-left-content,
-  .hero-left-content-text {
+  .hero-left-content .text {
     align-items: center;
   }
-  .hero-left-content-text {
+  .hero-left-content .text {
     text-align: center;
   }
   /* Our Clients */
