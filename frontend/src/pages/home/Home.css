@@ -251,41 +251,41 @@
   color: #717171;
 }
 
-/* Helping a local business */
-.helping-a-local-business {
+/* Local business */
+.local-business {
   margin-top: 40px;
 }
 
-.helping-a-local-business-content,
-.helping-a-local-business-right-content,
-.helping-a-local-business-right-content-text {
+.local-business-content,
+.local-business .right-wrapper,
+.local-business .right-wrapper .text {
   display: flex;
 }
 
-.helping-a-local-business-right-content,
-.helping-a-local-business-right-content-text {
+.local-business .right-wrapper,
+.local-business .right-wrapper .text {
   flex-direction: column;
 }
 
-.helping-a-local-business-content {
+.local-business-content {
   align-items: center;
   justify-content: space-around;
 }
 
-.helping-a-local-business-right-content {
+.local-business .right-wrapper {
   gap: 40px;
 }
 
-.helping-a-local-business-right-content-text {
+.local-business .right-wrapper .text {
   gap: 20px;
 }
 
-.helping-a-local-business-right-content-text h2 {
+.local-business .right-wrapper .text h2 {
   color: #4d4d4d;
   text-transform: none;
 }
 
-.helping-a-local-business-right-content-text p {
+.local-business .right-wrapper .text p {
   color: #717171;
 }
 
@@ -518,10 +518,10 @@
     font-size: 14px;
   }
   /* Helping a local business */
-  .helping-a-local-business-right-content-text h2 {
+  .local-business .right-wrapper .text h2 {
     font-size: 32px;
   }
-  .helping-a-local-business-right-content-text p {
+  .local-business .right-wrapper .text p {
     font-size: 14px;
   }
   /* Customers */
@@ -581,10 +581,10 @@
     font-size: 18px;
   }
   /* Helpig a local business */
-  .helping-a-local-business-content {
+  .local-business-content {
     gap: 5px;
   }
-  .helping-a-local-business-right-content-text h2 {
+  .local-business .right-wrapper .text h2 {
     font-size: 30px;
   }
   /* Customers */
@@ -673,10 +673,10 @@
     gap: 20px;
   }
   /* Helping a local business */
-  .helping-a-local-business-left-content-banner img {
-    width: 100%;
+  .local-business .local-business-content img {
+    width: 50%;
   }
-  .helping-a-local-business-right-content-text p {
+  .local-business .right-wrapper .text p {
     font-size: 12px;
   }
   /* Customers */
@@ -760,16 +760,17 @@
     font-size: 22px;
   }
   /* Helping a local business */
-  .helping-a-local-business-content {
+  .local-business-content {
     flex-wrap: wrap;
     gap: 40px;
   }
-  .helping-a-local-business-right-content-text h2 {
+  .local-business .right-wrapper .text h2 {
     font-size: 22px;
     text-align: center;
   }
-  .helping-a-local-business-right-content-text p {
+  .local-business .right-wrapper .text p {
     font-size: 11px;
+    text-align: center;
   }
   /* Customers */
   .customers-content {
