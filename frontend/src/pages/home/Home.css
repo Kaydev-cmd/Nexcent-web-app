@@ -112,72 +112,39 @@
 }
 
 /* Manage */
-.manage,
-.manage-content-cards-wrapper {
+.manage {
   margin-top: 40px;
 }
 
-.manage-content-text,
-.manage-content-cards,
-.manage-content-card,
-.manage-content-card-text {
+.manage-content .text {
   display: flex;
 }
 
-.manage-content-text,
-.manage-content-card,
-.manage-content-card-text {
+.manage-content .text {
   flex-direction: column;
 }
 
-.manage-content-text,
-.manage-content-card,
-.manage-content-card-text {
+.manage-content .text {
   align-items: center;
 }
 
-.manage-content-text h2,
-.manage-content-card-text h3,
-.manage-content-card-text p {
+.manage-content .text h2 {
   text-align: center;
 }
 
-.manage-content-text h2,
-.manage-content-card-text h3 {
+.manage-content .text h2 {
   color: #4d4d4d;
 }
 
-.manage-content-text p,
-.manage-content-card-text p {
+.manage-content .text p {
   color: #717171;
 }
 
-.manage-content-cards,
-.manage-content-card {
-  justify-content: space-around;
-}
-
-.manage-content-text {
+.manage-content .text {
   gap: 10px;
 }
 
-.manage-content-card {
-  width: 400px;
-  height: 340px;
-  padding: 60px 0px;
-  background-color: #fff;
-  border-radius: 12px;
-}
-
-.manage-content-card-text {
-  gap: 20px;
-}
-
-.manage-content-card-text h3 {
-  font-weight: bold;
-}
-
-.manage-content-text h2 {
+.manage-content .text h2 {
   text-transform: none;
 }
 
@@ -550,10 +517,6 @@
   .hero-content .hero-banner {
     width: 30%;
   }
-  /* Manage */
-  .manage-content-card {
-    width: 320px;
-  }
   /* Learn More */
   .learn-more-right-content-text h2 {
     font-size: 32px;
@@ -598,19 +561,11 @@
     font-size: 14px;
   }
   /* Manage */
-  .manage-content-card {
-    width: 240px;
-    padding: 60px 10px;
-  }
-  .manage-content-text h2 {
+  .manage-content .text h2 {
     font-size: 34px;
   }
-  .manage-content-text p,
-  .manage-content-card-text p {
+  .manage-content .text p {
     font-size: 14px;
-  }
-  .manage-content-card-text h3 {
-    font-size: 20px;
   }
   /* Learn More */
   .learn-more-content {
@@ -702,18 +657,10 @@
     font-size: 12px;
   }
   /* Manage */
-  .manage-content-cards {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .manage-content-card {
-    width: 320px;
-    padding: 60px 0px;
-  }
-  .manage-content-text h2 {
+  .manage-content .text h2 {
     font-size: 30px;
   }
-  .manage-content-text p {
+  .manage-content .text p {
     font-size: 12px;
   }
   /* Learn More */
@@ -805,7 +752,7 @@
     width: 8%;
   }
   /* Manage */
-  .manage-content-text h2 {
+  .manage-content .text h2 {
     font-size: 22px;
   }
   /* Learn More */
@@ -909,10 +856,6 @@
   /* Our Clients */
   .our-clients-content .text p {
     font-size: 11px;
-  }
-  /* Manage */
-  .manage-content-card {
-    width: 280px;
   }
   /* Reinvent */
   .reinvent-left-content-text h2 {
