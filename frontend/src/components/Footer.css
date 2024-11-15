@@ -5,63 +5,59 @@
 .footer-content,
 .footer-left-content,
 .footer-right-content,
-.footer-left-content-heading-and-logo a,
-.footer-left-content-text,
-.footer-left-content-icons,
-.footer-right-company-content,
-.footer-right-support-content,
-.footer-right-stay-up-to-date-content,
-.footer-right-company-content-links,
-.footer-right-support-content-links,
-.footer-right-stay-up-to-date-content-email-address {
+.footer-left-content a,
+.footer-left-content .text,
+.footer-left-content .icons,
+.footer-right-content .company-content,
+.footer-right-content .support-content,
+.footer-right-content .stay-up-to-date-content,
+.footer-right-content .company-content .links,
+.footer-right-content .support-content .links {
   display: flex;
 }
 
 .footer-left-content,
-.footer-left-content-text,
-.footer-right-company-content,
-.footer-right-support-content,
-.footer-right-stay-up-to-date-content,
-.footer-right-company-content-links,
-.footer-right-support-content-links {
+.footer-left-content .text,
+.footer-right-content .company-content,
+.footer-right-content .support-content,
+.footer-right-content .stay-up-to-date-content,
+.footer-right-content .company-content .links,
+.footer-right-content .support-content .links {
   flex-direction: column;
 }
 
-.footer-left-content-heading-and-logo a,
-.footer-right-stay-up-to-date-content-email-address {
+.footer-left-content a {
   align-items: center;
 }
 
-.footer-left-content-heading-and-logo h2,
-.footer-left-content-text,
-.footer-right-company-content-heading h3,
-.footer-right-support-content-heading h3,
-.footer-right-stay-up-to-date-content-heading h3,
-.footer-right-company-content-links p a,
-.footer-right-support-content-links p a {
+.footer-left-content a h2,
+.footer-left-content .text,
+.footer-right-content .company-content h3,
+.footer-right-content .support-content h3,
+.footer-right-content .stay-up-to-date-content h3,
+.footer-right-content .company-content .links p a,
+.footer-right-content .support-content .links p a {
   color: #fff;
 }
 
-.footer-right-company-content,
-.footer-right-support-content,
-.footer-right-stay-up-to-date-content,
-.footer-right-company-content-links,
-.footer-right-support-content-links,
-.footer-right-company-content-links,
-.footer-right-support-content-links {
+.footer-right-content .company-content,
+.footer-right-content .support-content,
+.footer-right-content .stay-up-to-date-content,
+.footer-right-content .company-content .links,
+.footer-right-content .support-content .links {
   gap: 16px;
 }
 
-.footer-right-company-content-heading h3,
-.footer-right-support-content-heading h3,
-.footer-right-stay-up-to-date-content-heading h3 {
+.footer-right-content .company-content h3,
+.footer-right-content .support-content h3,
+.footer-right-content .stay-up-to-date-content h3 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.footer-left-content-heading-and-logo a,
-.footer-right-company-content-links p a,
-.footer-right-support-content-links p a {
+.footer-left-content a,
+.footer-right-content .company-content .links p a,
+.footer-right-content .support-content .links p a {
   text-decoration: none;
 }
 
@@ -78,39 +74,39 @@
   gap: 60px;
 }
 
-.footer-left-content-heading-and-logo a {
+.footer-left-content a {
   gap: 12px;
 }
 
-.footer-left-content-heading-and-logo h2 {
+.footer-left-content h2 {
   text-transform: none;
   font-size: 26px;
 }
 
-.footer-left-content-text {
+.footer-left-content .text {
   gap: 8px;
 }
 
-.footer-left-content-text p {
+.footer-left-content .text p {
   font-size: 12px;
 }
 
-.footer-left-content-icons {
+.footer-left-content .icons {
   gap: 20px;
 }
 
-.footer-right-company-content-links p a,
-.footer-right-support-content-links p a {
+.footer-right-content .company-content .links p a,
+.footer-right-content .support-content .links p a {
   font-size: 12px;
   transition: 0.3s ease-in-out;
 }
 
-.footer-right-company-content-links p a:hover,
-.footer-right-support-content-links p a:hover {
+.footer-right-content .company-content .links p a:hover,
+.footer-right-content .support-content .links p a:hover {
   text-decoration: underline;
 }
 
-.footer-right-stay-up-to-date-content-email-address input {
+.footer-right-content .stay-up-to-date-content input {
   padding: 12px 10px;
   width: 300px;
   border-radius: 6px;
@@ -145,7 +141,7 @@
     gap: 80px;
     padding: 60px 0px;
   }
-  .footer-right-stay-up-to-date-content-email-address input {
+  .footer-right-content .stay-up-to-date-content input {
     width: 200px;
   }
 }
@@ -155,21 +151,21 @@
   .container {
     max-width: 640px;
   }
-  .footer-left-content-heading-and-logo a h2 {
+  .footer-left-content a h2 {
     font-size: 20px;
   }
   .footer-content {
     gap: 20px;
   }
-  .footer-right-company-content-heading h3,
-  .footer-right-support-content-heading h3,
-  .footer-right-stay-up-to-date-content-heading h3 {
+  .footer-right-content .company-content h3,
+  .footer-right-content .support-content h3,
+  .footer-right-content .stay-up-to-date-content h3 {
     font-size: 16px;
   }
-  .footer-left-content-icons a img {
+  .footer-left-content .icons a img {
     width: 20px;
   }
-  .footer-left-content-text p {
+  .footer-left-content .text p {
     font-size: 11px;
   }
 }
@@ -184,12 +180,19 @@
   .footer-left-content {
     align-items: center;
   }
-  .footer-right-company-content-links,
-  .footer-right-support-content-links,
-  .footer-right-support-content-heading,
-  .footer-right-stay-up-to-date-content-heading,
+  .footer-right-content .company-content .links,
+  .footer-right-content .support-content .links,
+  .footer-right-content .support-content h3,
+  .footer-right-content .stay-up-to-date-content h3,
   .footer-left-content p {
     text-align: center;
+  }
+  .footer-left-content p,
+  .footer-right-content .stay-up-to-date-content input {
+    position: relative;
+  }
+  .footer-left-content p {
+    left: 4%;
   }
   .footer-content {
     flex-direction: column-reverse;
@@ -199,10 +202,11 @@
   .footer-right-content {
     flex-direction: column;
   }
-  .footer-right-stay-up-to-date-content-email-address input {
-    width: 300px;
+  .footer-right-content .stay-up-to-date-content input {
+    left: 4%;
+    width: 260px;
   }
-  .footer-left-content-icons a img {
+  .footer-left-content .icons a img {
     width: 100%;
   }
 }
