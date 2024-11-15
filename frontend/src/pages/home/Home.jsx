@@ -244,26 +244,16 @@ export const Home = () => {
       {/* Demo */}
       <section className="demo" id="demo">
         <div className="container">
-          <div className="demo-content-wrapper">
-            <div className="demo-content">
-              <div className="demo-content-text-wrapper">
-                <div className="demo-content-text">
-                  <h2>
-                    Pellentesque suscipit
-                    <br />
-                    fringilla libero eu.
-                  </h2>
-                </div>
-              </div>
-              <div className="demo-content-btn-wrapper">
-                <div className="demo-content-btn">
-                  <button>
-                    Get a demo{" "}
-                    <img src="/images/home/Right-white.png" alt="Right Arrow" />
-                  </button>
-                </div>
-              </div>
-            </div>
+          <div className="demo-content">
+            <h2>
+              Pellentesque suscipit
+              <br />
+              fringilla libero eu.
+            </h2>
+            <button>
+              Get a demo{" "}
+              <img src="/images/home/Right-white.png" alt="Right Arrow" />
+            </button>
           </div>
         </div>
       </section>
