@@ -317,12 +317,12 @@
 }
 
 .demo-content,
-.demo-content-btn button {
+.demo-content button {
   display: flex;
 }
 
 .demo-content,
-.demo-content-btn button {
+.demo-content button {
   align-items: center;
 }
 
@@ -332,16 +332,16 @@
   padding: 60px 40px;
 }
 
-.demo-content-text {
+.demo-content h2 {
   text-align: center;
 }
 
-.demo-content-text h2 {
+.demo-content h2 {
   color: #263238;
   font-size: 48px;
 }
 
-.demo-content-btn button {
+.demo-content button {
   background-color: #4caf4f;
   gap: 12px;
   border: none;
@@ -352,7 +352,7 @@
   transition: 0.3s ease-in-out;
 }
 
-.demo-content-btn button:hover {
+.demo-content button:hover {
   opacity: 0.8;
 }
 
@@ -461,7 +461,7 @@
     font-size: 12px;
   }
   /* Demo */
-  .demo-content-text h2 {
+  .demo-content h2 {
     font-size: 38px;
   }
 }
@@ -612,10 +612,10 @@
     font-size: 11px;
   }
   /* Demo */
-  .demo-content-text h2 {
+  .demo-content h2 {
     font-size: 28px;
   }
-  .demo-content-btn button {
+  .demo-content button {
     padding: 16px 24px;
   }
 }
@@ -648,10 +648,10 @@
     width: 18px;
   }
   /* Demo */
-  .demo-content-text h2 {
-    font-size: 16px;
+  .demo-content h2 {
+    font-size: 24px;
   }
-  .demo-content-btn button {
+  .demo-content button {
     padding: 16px 20px;
   }
 }
