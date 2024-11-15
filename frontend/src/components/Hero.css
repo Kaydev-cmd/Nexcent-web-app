@@ -1,0 +1,168 @@
+.hero {
+  background-color: #f5f7fa;
+}
+
+.hero-swiper {
+  --swiper-pagination-color: #4caf4f;
+  --swiper-pagination-bullet-inactive-color: #4d4d4d;
+  --swiper-pagination-bullet-size: 12px;
+}
+
+.hero-content,
+.hero-left-content,
+.hero-left-content .text,
+.hero-content-swiper-icons {
+  display: flex;
+}
+
+.hero-left-content,
+.hero-left-content .text {
+  flex-direction: column;
+}
+
+.hero-left-content .text h1,
+.hero-left-content .text span p {
+  font-size: 60px;
+}
+
+.hero-content {
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.hero-left-content {
+  gap: 40px;
+}
+
+.hero-left-content .text {
+  gap: 20px;
+}
+
+.hero-left-content .text h1 {
+  text-transform: none;
+  color: #4d4d4d;
+}
+
+.hero-left-content .text span p {
+  color: #4caf4f;
+}
+
+.hero-left-content .text p {
+  color: #717171;
+}
+
+.hero-left-content .register-btn {
+  width: 140px;
+  padding: 14px 0px;
+  background-color: #4caf4f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.hero-left-content .register-btn:hover {
+  opacity: 0.8;
+}
+
+.hero-content-swiper-icons {
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  .hero-content {
+    padding: 60px 4px;
+  }
+  .hero-left-content .text h1,
+  .hero-left-content .text span p {
+    font-size: 48px;
+  }
+  .hero-content .hero-banner {
+    width: 30%;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .hero-content {
+    gap: 20px;
+  }
+  .hero-left-content .text h1,
+  .hero-left-content .text span p {
+    font-size: 34px;
+  }
+  .hero-left-content .text p {
+    font-size: 14px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .hero-content .hero-banner {
+    width: 40%;
+  }
+  .hero-left-content .text h1,
+  .hero-left-content .text span p {
+    font-size: 30px;
+  }
+  .hero-left-content .text p {
+    font-size: 12px;
+  }
+  .hero-left-content .register-btn {
+    padding: 12px 0px;
+    width: 100px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  .hero-swiper {
+    --swiper-pagination-bullet-size: 10px;
+  }
+  .hero-content .hero-banner {
+    display: none;
+  }
+  .hero-content {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-left-content,
+  .hero-left-content .text {
+    align-items: center;
+  }
+  .hero-left-content .text {
+    text-align: center;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}

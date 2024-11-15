@@ -1,78 +1,3 @@
-/* Hero */
-.hero {
-  background-color: #f5f7fa;
-}
-
-.hero-swiper {
-  --swiper-pagination-color: #4caf4f;
-  --swiper-pagination-bullet-inactive-color: #4d4d4d;
-  --swiper-pagination-bullet-size: 12px;
-}
-
-.hero-content,
-.hero-left-content,
-.hero-left-content .text,
-.hero-content-swiper-icons {
-  display: flex;
-}
-
-.hero-left-content,
-.hero-left-content .text {
-  flex-direction: column;
-}
-
-.hero-left-content .text h1,
-.hero-left-content .text span p {
-  font-size: 60px;
-}
-
-.hero-content {
-  justify-content: space-around;
-  align-items: center;
-  padding: 60px 20px;
-}
-
-.hero-left-content {
-  gap: 40px;
-}
-
-.hero-left-content .text {
-  gap: 20px;
-}
-
-.hero-left-content .text h1 {
-  text-transform: none;
-  color: #4d4d4d;
-}
-
-.hero-left-content .text span p {
-  color: #4caf4f;
-}
-
-.hero-left-content .text p {
-  color: #717171;
-}
-
-.hero-left-content .register-btn {
-  width: 140px;
-  padding: 14px 0px;
-  background-color: #4caf4f;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-
-.hero-left-content .register-btn:hover {
-  opacity: 0.8;
-}
-
-.hero-content-swiper-icons {
-  justify-content: center;
-  padding-bottom: 20px;
-}
-
 /* Our Clients */
 .our-clients {
   margin-top: 40px;
@@ -297,29 +222,29 @@
 
 .customers-content-wrapper,
 .customers-content,
-.customers-content-text,
-.customers-content-logos-and-link,
-.customers-content-logos-and-link p {
+.customers-content .text,
+.customers-content .logos-and-link,
+.customers-content .logos-and-link p {
   display: flex;
 }
 
 .customers-content,
-.customers-content-text {
+.customers-content .text {
   flex-direction: column;
 }
 
 .customers-content,
-.customers-content-text {
+.customers-content .text {
   gap: 20px;
 }
 
-.customers-content-logos-and-link,
-.customers-content-logos-and-link p {
+.customers-content .logos-and-link,
+.customers-content .logos-and-link p {
   align-items: center;
 }
 
-.customers-content-text h4,
-.customers-content-logos-and-link p a {
+.customers-content .text h4,
+.customers-content .logos-and-link p a {
   color: #4caf4f;
 }
 
@@ -328,31 +253,31 @@
 }
 
 .customers-content {
-  padding: 20px 100px;
+  padding: 60px 100px;
 }
 
-.customers-content-text p {
+.customers-content .text p {
   color: #717171;
 }
 
-.customers-content-text p span {
+.customers-content .text p span {
   color: #89939e;
 }
 
-.customers-content-logos-and-link {
+.customers-content .logos-and-link {
   justify-content: space-between;
 }
 
-.customers-content-logos-and-link p {
+.customers-content .logos-and-link p {
   gap: 4px;
 }
 
-.customers-content-logos-and-link p a {
+.customers-content .logos-and-link p a {
   text-decoration: none;
   font-weight: bold;
 }
 
-.customers-content-logos-and-link p a:hover {
+.customers-content .logos-and-link p a:hover {
   text-decoration: underline;
 }
 
@@ -489,17 +414,6 @@
   .container {
     max-width: 1024px;
   }
-  /* Hero */
-  .hero-content {
-    padding: 60px 4px;
-  }
-  .hero-left-content .text h1,
-  .hero-left-content .text span p {
-    font-size: 48px;
-  }
-  .hero-content .hero-banner {
-    width: 30%;
-  }
   /* Learn More */
   .learn-more .right-wrapper .text h2 {
     font-size: 32px;
@@ -517,7 +431,7 @@
   .reinvent-content .text p {
     font-size: 14px;
   }
-  /* Helping a local business */
+  /* Local business */
   .local-business .right-wrapper .text h2 {
     font-size: 32px;
   }
@@ -534,17 +448,6 @@
 @media (max-width: 1024px) {
   .container {
     max-width: 768px;
-  }
-  /* Hero */
-  .hero-content {
-    gap: 20px;
-  }
-  .hero-left-content .text h1,
-  .hero-left-content .text span p {
-    font-size: 34px;
-  }
-  .hero-left-content .text p {
-    font-size: 14px;
   }
   /* Our Clients */
   .our-clients-content .text h2 {
@@ -580,7 +483,7 @@
   .reinvent-content .content-wrapper .card .text h3 {
     font-size: 18px;
   }
-  /* Helpig a local business */
+  /* Local business */
   .local-business-content {
     gap: 5px;
   }
@@ -588,10 +491,10 @@
     font-size: 30px;
   }
   /* Customers */
-  .customers-content-text h4 {
+  .customers-content .text h4 {
     font-size: 20px;
   }
-  .customers-content-text p {
+  .customers-content .text p {
     font-size: 14px;
   }
   /* Marketing */
@@ -614,21 +517,6 @@
 @media (max-width: 768px) {
   .container {
     max-width: 640px;
-  }
-  /* Hero */
-  .hero-content .hero-banner {
-    width: 40%;
-  }
-  .hero-left-content .text h1,
-  .hero-left-content .text span p {
-    font-size: 30px;
-  }
-  .hero-left-content .text p {
-    font-size: 12px;
-  }
-  .hero-left-content .register-btn {
-    padding: 12px 0px;
-    width: 100px;
   }
   /* Our Clients */
   .our-clients-content .text h2 {
@@ -672,7 +560,7 @@
   .reinvent-content .content-wrapper .lower-wrapper {
     gap: 20px;
   }
-  /* Helping a local business */
+  /* Local business */
   .local-business .local-business-content img {
     width: 50%;
   }
@@ -680,22 +568,22 @@
     font-size: 12px;
   }
   /* Customers */
-  .customers-content-text h4 {
+  .customers-content .text h4 {
     font-size: 18px;
   }
-  .customers-content-text p {
+  .customers-content .text p {
     font-size: 12px;
   }
-  .customers-content-logos-and-link {
+  .customers-content .logos-and-link {
     gap: 2px;
   }
-  .customers-content-logos-and-link img {
+  .customers-content .logos-and-link img {
     width: 40px;
   }
-  .customers-content-logos-and-link p {
+  .customers-content .logos-and-link p {
     font-size: 14px;
   }
-  .customers-content-logos-and-link p img {
+  .customers-content .logos-and-link p img {
     width: 24px;
   }
   /* Marketing */
@@ -708,24 +596,6 @@
 @media (max-width: 640px) {
   .container {
     max-width: 475px;
-  }
-  /* Hero */
-  .hero-swiper {
-    --swiper-pagination-bullet-size: 10px;
-  }
-  .hero-content .hero-banner {
-    display: none;
-  }
-  .hero-content {
-    display: flex;
-    justify-content: center;
-  }
-  .hero-left-content,
-  .hero-left-content .text {
-    align-items: center;
-  }
-  .hero-left-content .text {
-    text-align: center;
   }
   /* Our Clients */
   .our-clients-content .text h2 {
@@ -759,7 +629,7 @@
     text-align: center;
     font-size: 22px;
   }
-  /* Helping a local business */
+  /* Local business */
   .local-business-content {
     flex-wrap: wrap;
     gap: 40px;
@@ -776,13 +646,13 @@
   .customers-content {
     padding: 20px;
   }
-  .customers-content-logos-and-link img {
+  .customers-content .logos-and-link img {
     width: 30px;
   }
-  .customers-content-logos-and-link p {
+  .customers-content .logos-and-link p {
     font-size: 12px;
   }
-  .customers-content-logos-and-link p img {
+  .customers-content .logos-and-link p img {
     width: 20px;
   }
   /* Marketing */
@@ -822,17 +692,17 @@
     width: 100%;
   }
   /* Customers */
-  .customers-content-logos-and-link {
+  .customers-content .logos-and-link {
     gap: 10px;
     flex-wrap: wrap;
   }
-  .customers-content-logos-and-link img {
+  .customers-content .logos-and-link img {
     width: 10%;
   }
-  .customers-content-logos-and-link p {
+  .customers-content .logos-and-link p {
     font-size: 12px;
   }
-  .customers-content-logos-and-link p img {
+  .customers-content .logos-and-link p img {
     width: 18px;
   }
   /* Marketing */

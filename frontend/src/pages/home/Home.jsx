@@ -2,113 +2,12 @@
 import "./Home.css";
 import { LearnMoreButton } from "../../components/LearnMoreButton";
 import { ManageCards } from "../../components/ManageCards";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Required Modules
-import { Pagination, Autoplay } from "swiper/modules";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+import { Hero } from "../../components/Hero";
 
 export const Home = () => {
   return (
     <>
-      {/* Hero */}
-      <section className="hero">
-        <div className="container">
-          <Swiper
-            pagination={{
-              dynamicBullets: true,
-            }}
-            autoplay={{
-              delay: 12000,
-              disableOnInteraction: false,
-            }}
-            modules={[Pagination, Autoplay]}
-            className="hero-swiper"
-          >
-            <SwiperSlide>
-              <div className="hero-content">
-                <div className="hero-left-content">
-                  <div className="text">
-                    <h1>
-                      Lessons and insights
-                      <br />
-                      <span>
-                        <p>from 8 years</p>
-                      </span>
-                    </h1>
-                    <p>
-                      Where to grow your business as a photographer: site or
-                      social media?
-                    </p>
-                  </div>
-                  <button className="register-btn">Register</button>
-                </div>
-                <img
-                  src="/images/home/Illustration.png"
-                  alt="Hero Illustration"
-                  className="hero-banner"
-                />
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="hero-content">
-                <div className="hero-left-content">
-                  <div className="text">
-                    <h1>
-                      Lessons and insights
-                      <br />
-                      <span>
-                        <p>from 8 years</p>
-                      </span>
-                    </h1>
-                    <p>
-                      Where to grow your business as a photographer: site or
-                      social media?
-                    </p>
-                  </div>
-                  <button className="register-btn">Register</button>
-                </div>
-                <img
-                  src="/images/home/Illustration.png"
-                  alt="Hero Illustration"
-                  className="hero-banner"
-                />
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="hero-content">
-                <div className="hero-left-content">
-                  <div className="text">
-                    <h1>
-                      Lessons and insights
-                      <br />
-                      <span>
-                        <p>from 8 years</p>
-                      </span>
-                    </h1>
-                    <p>
-                      Where to grow your business as a photographer: site or
-                      social media?
-                    </p>
-                  </div>
-                  <button className="register-btn">Register</button>
-                </div>
-                <img
-                  src="/images/home/Illustration.png"
-                  alt="Hero Illustration"
-                  className="hero-banner"
-                />
-              </div>
-            </SwiperSlide>
-          </Swiper>
-        </div>
-      </section>
-
+      <Hero />
       {/* Our Clients */}
       <section className="our-clients" id="ourClients">
         <div className="container">
@@ -275,53 +174,45 @@ export const Home = () => {
         <div className="container">
           <div className="customers-content-wrapper">
             <div className="customers-content">
-              <div className="customers-content-text-wrapper">
-                <div className="customers-content-text">
-                  <p>
-                    Maecenas dignissim justo eget nulla rutrum molestie.
-                    Maecenas lobortis sem dui, vel rutrum risus
-                    <br />
-                    tincidunt ullamcorper. Proin eu enim metus. Vivamus sed
-                    libero ornare, tristique quam in, gravida
-                    <br />
-                    enim. Nullam ut molestie arcu, at hendrerit elit. Morbi
-                    laoreet elit at ligula molestie, nec molestie
-                    <br />
-                    mi blandit. Suspendisse cursus tellus sed augue ultrices,
-                    quis tristique nulla sodales. Suspendisse
-                    <br />
-                    eget lorem eu turpis vestibulum pretium. Suspendisse
-                    potenti. Quisque malesuada enim sapien,
-                    <br />
-                    vitae placerat ante feugiat eget. Quisque vulputate odio
-                    neque, eget efficitur libero condimentum
-                    <br />
-                    id. Curabitur id nibh id sem dignissim finibus ac sit amet
-                    magna.
-                  </p>
-                  <h4>Tim Smith</h4>
-                  <p>
-                    <span>British Dragon Boat Racing Association</span>
-                  </p>
-                </div>
+              <div className="text">
+                <p>
+                  Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+                  lobortis sem dui, vel rutrum risus
+                  <br />
+                  tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero
+                  ornare, tristique quam in, gravida
+                  <br />
+                  enim. Nullam ut molestie arcu, at hendrerit elit. Morbi
+                  laoreet elit at ligula molestie, nec molestie
+                  <br />
+                  mi blandit. Suspendisse cursus tellus sed augue ultrices, quis
+                  tristique nulla sodales. Suspendisse
+                  <br />
+                  eget lorem eu turpis vestibulum pretium. Suspendisse potenti.
+                  Quisque malesuada enim sapien,
+                  <br />
+                  vitae placerat ante feugiat eget. Quisque vulputate odio
+                  neque, eget efficitur libero condimentum
+                  <br />
+                  id. Curabitur id nibh id sem dignissim finibus ac sit amet
+                  magna.
+                </p>
+                <h4>Tim Smith</h4>
+                <p>
+                  <span>British Dragon Boat Racing Association</span>
+                </p>
               </div>
-              <div className="customers-content-logos-and-link-wrapper">
-                <div className="customers-content-logos-and-link">
-                  <img src="/images/home/Logo-7.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-1.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-2.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-3.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-4.png" alt="Company Logo" />
-                  <img src="/images/home/Logo-5.png" alt="Company Logo" />
-                  <div className="customers-content-link-wrapper">
-                    <div className="customers-content-link">
-                      <p>
-                        <a href="">Meet all customers</a>
-                        <img src="/images/home/Right.png" alt="Right Arrow" />
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div className="logos-and-link">
+                <img src="/images/home/Logo-7.png" alt="Company Logo" />
+                <img src="/images/home/Logo-1.png" alt="Company Logo" />
+                <img src="/images/home/Logo-2.png" alt="Company Logo" />
+                <img src="/images/home/Logo-3.png" alt="Company Logo" />
+                <img src="/images/home/Logo-4.png" alt="Company Logo" />
+                <img src="/images/home/Logo-5.png" alt="Company Logo" />
+                <p>
+                  <a href="">Meet all customers</a>
+                  <img src="/images/home/Right.png" alt="Right Arrow" />
+                </p>
               </div>
             </div>
           </div>
