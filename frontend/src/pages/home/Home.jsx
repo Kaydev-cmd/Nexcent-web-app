@@ -182,111 +182,47 @@ export const Home = () => {
       {/* Reinvent */}
       <section className="reinvent" id="reinvent">
         <div className="container">
-          <div className="reinvent-content-wrapper">
-            <div className="reinvent-content">
-              <div className="reinvent-left-content-wrapper">
-                <div className="reinvent-left-content">
-                  <div className="reinvent-left-content-text-wrapper">
-                    <div className="reinvent-left-content-text">
-                      <h2>
-                        Helping a local
-                        <br />
-                        <span>business reinvent itself</span>
-                      </h2>
-                      <p>We reached here with our hard work and dedication</p>
+          <div className="reinvent-content">
+            <div className="text">
+              <h2>
+                Helping a local
+                <br />
+                <span>business reinvent itself</span>
+              </h2>
+              <p>We reached here with our hard work and dedication</p>
+            </div>
+            <div className="right-wrapper">
+              <div className="content-wrapper">
+                <div className="upper-wrapper">
+                  <div className="card">
+                    <img src="/images/home/Icon-10.png" alt="Users" />
+                    <div className="text">
+                      <h3>2,245,341</h3>
+                      <p>Members</p>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <img src="/images/home/Icon-11.png" alt="Hands" />
+                    <div className="text">
+                      <h3>46,328</h3>
+                      <p>Clubs</p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="reinvent-right-content-wrapper">
-                <div className="reinvent-right-content">
-                  {/* Upper Wrapper */}
-                  <div className="reinvent-right-upper-content-wrapper">
-                    <div className="reinvent-right-upper-content">
-                      <div className="reinvent-right-upper-content-members-wrapper">
-                        <div className="reinvent-right-upper-content-members">
-                          <div className="reinvent-right-upper-content-members-left-content-wrapper">
-                            <div className="reinvent-right-upper-content-members-left-content">
-                              <img src="/images/home/Icon-10.png" alt="Users" />
-                            </div>
-                          </div>
-                          <div className="reinvent-right-upper-content-members-right-content-wrapper">
-                            <div className="reinvent-right-upper-content-members-right-content">
-                              <div className="reinvent-right-upper-content-members-right-content-text-wrapper">
-                                <div className="reinvent-right-upper-content-members-right-content-text">
-                                  <h3>2,245,341</h3>
-                                  <p>Members</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div className="reinvent-right-upper-content-clubs-wrapper">
-                        <div className="reinvent-right-upper-content-clubs">
-                          <div className="reinvent-right-upper-content-clubs-left-content-wrapper">
-                            <div className="reinvent-right-upper-content-clubs-left-content">
-                              <img src="/images/home/Icon-11.png" alt="Hands" />
-                            </div>
-                          </div>
-                          <div className="reinvent-right-upper-content-clubs-right-content-wrapper">
-                            <div className="reinvent-right-upper-content-clubs-right-content">
-                              <div className="reinvent-right-upper-content-clubs-right-content-text-wrapper">
-                                <div className="reinvent-right-upper-content-clubs-right-content-text">
-                                  <h3>46,328</h3>
-                                  <p>Clubs</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                <div className="lower-wrapper">
+                  <div className="card">
+                    <img src="/images/home/Icon-12.png" alt="Hand" />
+                    <div className="text">
+                      <h3>828,867</h3>
+                      <p>Event Bookings</p>
                     </div>
                   </div>
-
-                  {/* Lower Wrapper */}
-                  <div className="reinvent-right-lower-content-wrapper">
-                    <div className="reinvent-right-lower-content">
-                      <div className="reinvent-right-lower-content-event-bookings-wrapper">
-                        <div className="reinvent-right-lower-content-event-bookings">
-                          <div className="reinvent-right-lower-content-event-bookings-left-content-wrapper">
-                            <div className="reinvent-right-lower-content-event-bookings-left-content">
-                              <img src="/images/home/Icon-12.png" alt="Hand" />
-                            </div>
-                          </div>
-                          <div className="reinvent-right-lower-content-event-bookings-right-content-wrapper">
-                            <div className="reinvent-right-lower-content-event-bookings-right-content">
-                              <div className="reinvent-right-lower-content-event-bookings-right-content-text-wrapper">
-                                <div className="reinvent-right-lower-content-event-bookings-right-content-text">
-                                  <h3>828,867</h3>
-                                  <p>Event Bookings</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="reinvent-right-lower-content-payments-wrapper">
-                        <div className="reinvent-right-lower-content-payments">
-                          <div className="reinvent-right-lower-content-payments-left-content-wrapper">
-                            <div className="reinvent-right-lower-content-payments-left-content">
-                              <img src="/images/home/Icon-13.png" alt="Card" />
-                            </div>
-                          </div>
-                          <div className="reinvent-right-lower-content-payments-right-content-wrapper">
-                            <div className="reinvent-right-lower-content-payments-right-content">
-                              <div className="reinvent-right-lower-content-payments-right-content-text-wrapper">
-                                <div className="reinvent-right-lower-content-payments-right-content-text">
-                                  <h3>1,926,436</h3>
-                                  <p>Payments</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                  <div className="card">
+                    <img src="/images/home/Icon-13.png" alt="Card" />
+                    <div className="text">
+                      <h3>1,926,436</h3>
+                      <p>Payments</p>
                     </div>
                   </div>
                 </div>

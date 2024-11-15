@@ -193,79 +193,62 @@
 }
 
 .reinvent-content,
-.reinvent-left-content-text,
-.reinvent-right-content,
-.reinvent-right-upper-content,
-.reinvent-right-lower-content,
-.reinvent-right-upper-content-members,
-.reinvent-right-upper-content-clubs,
-.reinvent-right-lower-content-event-bookings,
-.reinvent-right-lower-content-payments {
+.reinvent-content .text,
+.reinvent-content .content-wrapper,
+.reinvent-content .content-wrapper .upper-wrapper,
+.reinvent-content .content-wrapper .lower-wrapper,
+.reinvent-content .content-wrapper .card {
   display: flex;
 }
 
-.reinvent-content,
-.reinvent-right-upper-content,
-.reinvent-right-lower-content,
-.reinvent-right-upper-content-members,
-.reinvent-right-upper-content-clubs,
-.reinvent-right-lower-content-event-bookings,
-.reinvent-right-lower-content-payments {
-  align-items: center;
-}
-
-.reinvent-left-content-text,
-.reinvent-right-content {
+.reinvent-content .text,
+.reinvent-content .content-wrapper {
   flex-direction: column;
 }
 
-.reinvent-right-upper-content-members-right-content-text h3,
-.reinvent-right-upper-content-clubs-right-content-text h3,
-.reinvent-right-lower-content-event-bookings-right-content-text h3,
-.reinvent-right-lower-content-payments-right-content-text h3,
-.reinvent-left-content-text h2,
-.reinvent-right-upper-content-members-right-content-text p,
-.reinvent-right-upper-content-clubs-right-content-text p,
-.reinvent-right-lower-content-event-bookings-right-content-text p,
-.reinvent-right-lower-content-payments-right-content-text p {
+.reinvent-content .content-wrapper,
+.reinvent-content .content-wrapper .upper-wrapper,
+.reinvent-content .content-wrapper .lower-wrapper {
+  gap: 40px;
+}
+
+.reinvent-content,
+.reinvent-content .content-wrapper .card {
+  align-items: center;
+}
+
+.reinvent-content .text h2,
+.reinvent-content .content-wrapper .card .text h3 {
   color: #4d4d4d;
 }
 
 .reinvent-content {
-  justify-content: space-around;
-  padding: 60px 20px;
+  justify-content: space-between;
+  padding: 100px 80px;
 }
 
-.reinvent-left-content-text {
-  gap: 10px;
+.reinvent-content .text {
+  gap: 4px;
 }
 
-.reinvent-left-content-text h2 {
+.reinvent-content .text h2 {
   text-transform: none;
 }
 
-.reinvent-left-content-text span {
+.reinvent-content .text h2 span {
   color: #4caf4f;
 }
 
-.reinvent-left-content-text p {
+.reinvent-content .text p {
   color: #18191f;
 }
 
-.reinvent-right-content {
-  gap: 40px;
+.reinvent-content .content-wrapper .card {
+  gap: 24px;
 }
 
-.reinvent-right-upper-content,
-.reinvent-right-lower-content {
-  gap: 80px;
-}
-
-.reinvent-right-upper-content-members,
-.reinvent-right-upper-content-clubs,
-.reinvent-right-lower-content-event-bookings,
-.reinvent-right-lower-content-payments {
-  gap: 16px;
+.reinvent-content .content-wrapper .card .text p {
+  color: #717171;
 }
 
 /* Helping a local business */
@@ -524,6 +507,16 @@
   .learn-more .right-wrapper .text p {
     font-size: 14px;
   }
+  /* Reinvent */
+  .reinvent-content {
+    padding: 100px 20px;
+  }
+  .reinvent-content .text h2 {
+    font-size: 32px;
+  }
+  .reinvent-content .text p {
+    font-size: 14px;
+  }
   /* Helping a local business */
   .helping-a-local-business-right-content-text h2 {
     font-size: 32px;
@@ -575,29 +568,17 @@
     font-size: 30px;
   }
   /* Reinvent */
-  .reinvent-left-content-text h2 {
-    font-size: 30px;
-  }
   .reinvent-content {
-    gap: 20px;
+    padding: 100px 14px;
   }
-  .reinvent-right-upper-content-members-left-content img,
-  .reinvent-right-upper-content-clubs-left-content img,
-  .reinvent-right-lower-content-event-bookings-left-content img,
-  .reinvent-right-lower-content-payments-left-content img {
-    width: 80%;
+  .reinvent-content .text h2 {
+    font-size: 28px;
   }
-  .reinvent-right-upper-content-members-right-content-text h3,
-  .reinvent-right-upper-content-clubs-right-content-text h3,
-  .reinvent-right-lower-content-event-bookings-right-content-text h3,
-  .reinvent-right-lower-content-payments-right-content-text h3 {
-    font-size: 22px;
-  }
-  .reinvent-right-upper-content-members-right-content-text p,
-  .reinvent-right-upper-content-clubs-right-content-text p,
-  .reinvent-right-lower-content-event-bookings-right-content-text p,
-  .reinvent-right-lower-content-payments-right-content-text p {
+  .reinvent-content .text p {
     font-size: 12px;
+  }
+  .reinvent-content .content-wrapper .card .text h3 {
+    font-size: 18px;
   }
   /* Helpig a local business */
   .helping-a-local-business-content {
@@ -671,23 +652,25 @@
     font-size: 12px;
   }
   /* Reinvent */
-  .reinvent-right-upper-content-members-left-content img,
-  .reinvent-right-upper-content-clubs-left-content img,
-  .reinvent-right-lower-content-event-bookings-left-content img,
-  .reinvent-right-lower-content-payments-left-content img {
-    width: 28px;
+  .reinvent-content {
+    padding: 100px 0px;
   }
-  .reinvent-left-content-text h2 {
-    font-size: 24px;
+  .reinvent-content .text h2 {
+    font-size: 22px;
   }
-  .reinvent-left-content-text p {
+  .reinvent-content .text p {
     font-size: 12px;
   }
-  .reinvent-right-upper-content-members-right-content-text p,
-  .reinvent-right-upper-content-clubs-right-content-text p,
-  .reinvent-right-lower-content-event-bookings-right-content-text p,
-  .reinvent-right-lower-content-payments-right-content-text p {
+  .reinvent-content .content-wrapper .card .text h3 {
+    font-size: 16px;
+  }
+  .reinvent-content .content-wrapper .card .text p {
     font-size: 11px;
+  }
+  .reinvent-content .content-wrapper,
+  .reinvent-content .content-wrapper .upper-wrapper,
+  .reinvent-content .content-wrapper .lower-wrapper {
+    gap: 20px;
   }
   /* Helping a local business */
   .helping-a-local-business-left-content-banner img {
@@ -769,36 +752,12 @@
   }
   /* Reinvent */
   .reinvent-content {
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 40px;
   }
-  .reinvent-left-content-text h2,
-  .reinvent-left-content-text p {
+  .reinvent-content .text h2 {
     text-align: center;
-  }
-  .reinvent-left-content-text h2 {
-    font-size: 38px;
-  }
-  .reinvent-left-content-text p {
-    font-size: 16px;
-  }
-  .reinvent-right-upper-content-members-left-content img,
-  .reinvent-right-upper-content-clubs-left-content img,
-  .reinvent-right-lower-content-event-bookings-left-content img,
-  .reinvent-right-lower-content-payments-left-content img {
-    width: 80%;
-  }
-  .reinvent-right-upper-content-members-right-content-text h3,
-  .reinvent-right-upper-content-clubs-right-content-text h3,
-  .reinvent-right-lower-content-event-bookings-right-content-text h3,
-  .reinvent-right-lower-content-payments-right-content-text h3 {
-    font-size: 28px;
-  }
-  .reinvent-right-upper-content-members-right-content-text p,
-  .reinvent-right-upper-content-clubs-right-content-text p,
-  .reinvent-right-lower-content-event-bookings-right-content-text p,
-  .reinvent-right-lower-content-payments-right-content-text p {
-    font-size: 14px;
+    font-size: 22px;
   }
   /* Helping a local business */
   .helping-a-local-business-content {
@@ -858,31 +817,8 @@
     font-size: 11px;
   }
   /* Reinvent */
-  .reinvent-left-content-text h2 {
-    font-size: 26px;
-  }
-  .reinvent-left-content-text p,
-  .reinvent-right-upper-content-members-right-content-text p,
-  .reinvent-right-upper-content-clubs-right-content-text p,
-  .reinvent-right-lower-content-event-bookings-right-content-text p,
-  .reinvent-right-lower-content-payments-right-content-text p {
-    font-size: 12px;
-  }
-  .reinvent-right-upper-content-members-left-content img,
-  .reinvent-right-upper-content-clubs-left-content img,
-  .reinvent-right-lower-content-event-bookings-left-content img,
-  .reinvent-right-lower-content-payments-left-content img {
-    width: 30px;
-  }
-  .reinvent-right-upper-content-members-right-content-text h3,
-  .reinvent-right-upper-content-clubs-right-content-text h3,
-  .reinvent-right-lower-content-event-bookings-right-content-text h3,
-  .reinvent-right-lower-content-payments-right-content-text h3 {
-    font-size: 20px;
-  }
-  .reinvent-right-upper-content,
-  .reinvent-right-lower-content {
-    gap: 20px;
+  .reinvent-content .content-wrapper .card img {
+    width: 100%;
   }
   /* Customers */
   .customers-content-logos-and-link {
