@@ -150,44 +150,30 @@ export const Home = () => {
       {/* Learn More */}
       <section className="learn-more" id="learnMore">
         <div className="container">
-          <div className="learn-more-content-wrapper">
-            <div className="learn-more-content">
-              <div className="learn-more-left-content-wrapper">
-                <div className="learn-more-left-content">
-                  <div className="learn-more-left-content-banner-wrapper">
-                    <div className="learn-more-left-content-banner">
-                      <img src="/images/home/rafiki.png" alt="Illustration" />
-                    </div>
-                  </div>
-                </div>
+          <div className="learn-more-content">
+            <img src="/images/home/rafiki.png" alt="Illustration" />
+            <div className="right-wrapper">
+              <div className="text">
+                <h2>
+                  The unseen of spending three
+                  <br />
+                  years at Pixelgrade
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  sit amet justo ipsum. Sed
+                  <br />
+                  accumsan quam vitae est varius fringilla. Pellentesque
+                  placerat vestibulum lorem sed
+                  <br />
+                  porta. Nullam mattis tristique iaculis. Nullam pulvinar sit
+                  amet risus pretium auctor. Etiam
+                  <br />
+                  quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+                  elementum pulvinar odio.
+                </p>
               </div>
-              <div className="learn-more-right-content-wrapper">
-                <div className="learn-more-right-content">
-                  <div className="learn-more-right-content-text-wrapper">
-                    <div className="learn-more-right-content-text">
-                      <h2>
-                        The unseen of spending three
-                        <br />
-                        years at Pixelgrade
-                      </h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed sit amet justo ipsum. Sed
-                        <br />
-                        accumsan quam vitae est varius fringilla. Pellentesque
-                        placerat vestibulum lorem sed
-                        <br />
-                        porta. Nullam mattis tristique iaculis. Nullam pulvinar
-                        sit amet risus pretium auctor. Etiam
-                        <br />
-                        quis massa pulvinar, aliquam quam vitae, tempus sem.
-                        Donec elementum pulvinar odio.
-                      </p>
-                    </div>
-                  </div>
-                  <LearnMoreButton />
-                </div>
-              </div>
+              <LearnMoreButton />
             </div>
           </div>
         </div>

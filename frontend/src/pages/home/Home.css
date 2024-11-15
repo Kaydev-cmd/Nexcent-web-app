@@ -154,13 +154,13 @@
 }
 
 .learn-more-content,
-.learn-more-right-content,
-.learn-more-right-content-text {
+.learn-more .right-wrapper,
+.learn-more .right-wrapper .text {
   display: flex;
 }
 
-.learn-more-right-content,
-.learn-more-right-content-text {
+.learn-more .right-wrapper,
+.learn-more .right-wrapper .text {
   flex-direction: column;
 }
 
@@ -169,20 +169,20 @@
   justify-content: space-around;
 }
 
-.learn-more-right-content-text h2 {
+.learn-more .right-wrapper .text h2 {
   color: #4d4d4d;
   text-transform: none;
 }
 
-.learn-more-right-content-text p {
+.learn-more .right-wrapper .text p {
   color: #717171;
 }
 
-.learn-more-right-content {
+.learn-more .right-wrapper {
   gap: 40px;
 }
 
-.learn-more-right-content-text {
+.learn-more .right-wrapper .text {
   gap: 20px;
 }
 
@@ -518,10 +518,10 @@
     width: 30%;
   }
   /* Learn More */
-  .learn-more-right-content-text h2 {
+  .learn-more .right-wrapper .text h2 {
     font-size: 32px;
   }
-  .learn-more-right-content-text p {
+  .learn-more .right-wrapper .text p {
     font-size: 14px;
   }
   /* Helping a local business */
@@ -571,7 +571,7 @@
   .learn-more-content {
     gap: 5px;
   }
-  .learn-more-right-content-text h2 {
+  .learn-more .right-wrapper .text h2 {
     font-size: 30px;
   }
   /* Reinvent */
@@ -664,10 +664,10 @@
     font-size: 12px;
   }
   /* Learn More */
-  .learn-more-left-content-banner img {
+  .learn-more-content img {
     width: 100%;
   }
-  .learn-more-right-content-text p {
+  .learn-more .right-wrapper .text p {
     font-size: 12px;
   }
   /* Reinvent */
@@ -760,11 +760,11 @@
     flex-wrap: wrap;
     gap: 40px;
   }
-  .learn-more-right-content-text h2 {
+  .learn-more .right-wrapper .text h2 {
     text-align: center;
     font-size: 22px;
   }
-  .learn-more-right-content-text p {
+  .learn-more .right-wrapper .text p {
     font-size: 11px;
   }
   /* Reinvent */
