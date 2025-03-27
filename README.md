@@ -15,5 +15,5 @@
 <ul>
   <li>Frontend - React, CSS</li>
   <li>Routing - React Router</li>
-  <li>Deployment -Vercel / Netlify / Other hosting services</li>
+  <li>Deployment - Vercel / Netlify / Other hosting services</li>
 </ul>
