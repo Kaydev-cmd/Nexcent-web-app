@@ -1,41 +1,3 @@
-/* Learn More */
-.learn-more {
-  margin-top: 40px;
-}
-
-.learn-more-content,
-.learn-more .right-wrapper,
-.learn-more .right-wrapper .text {
-  display: flex;
-}
-
-.learn-more .right-wrapper,
-.learn-more .right-wrapper .text {
-  flex-direction: column;
-}
-
-.learn-more-content {
-  align-items: center;
-  justify-content: space-around;
-}
-
-.learn-more .right-wrapper .text h2 {
-  color: #4d4d4d;
-  text-transform: none;
-}
-
-.learn-more .right-wrapper .text p {
-  color: #717171;
-}
-
-.learn-more .right-wrapper {
-  gap: 40px;
-}
-
-.learn-more .right-wrapper .text {
-  gap: 20px;
-}
-
 /* Reinvent */
 .reinvent {
   margin-top: 40px;
@@ -289,13 +251,6 @@
 
 /* xl */
 @media (max-width: 1280px) {
-  /* Learn More */
-  .learn-more .right-wrapper .text h2 {
-    font-size: 32px;
-  }
-  .learn-more .right-wrapper .text p {
-    font-size: 14px;
-  }
   /* Reinvent */
   .reinvent-content {
     padding: 100px 20px;
@@ -321,13 +276,6 @@
 
 /* lg */
 @media (max-width: 1024px) {
-  /* Learn More */
-  .learn-more-content {
-    gap: 5px;
-  }
-  .learn-more .right-wrapper .text h2 {
-    font-size: 30px;
-  }
   /* Reinvent */
   .reinvent-content {
     padding: 100px 14px;
@@ -370,13 +318,6 @@
 
 /* md */
 @media (max-width: 768px) {
-  /* Learn More */
-  .learn-more-content img {
-    width: 100%;
-  }
-  .learn-more .right-wrapper .text p {
-    font-size: 12px;
-  }
   /* Reinvent */
   .reinvent-content {
     padding: 100px 0px;
@@ -428,18 +369,6 @@
 
 /* sm */
 @media (max-width: 640px) {
-  /* Learn More */
-  .learn-more-content {
-    flex-wrap: wrap;
-    gap: 40px;
-  }
-  .learn-more .right-wrapper .text h2 {
-    text-align: center;
-    font-size: 22px;
-  }
-  .learn-more .right-wrapper .text p {
-    font-size: 11px;
-  }
   /* Reinvent */
   .reinvent-content {
     flex-direction: column;

@@ -1,11 +1,12 @@
 // import React from 'react'
 import "./Home.css";
-import { LearnMoreButton } from "../../components/LearnMoreButton";
-import { ManageCards } from "../../components/Manage/ManageCards";
+// import { LearnMoreButton } from "../../components/LearnMoreButton";
+// import { ManageCards } from "../../components/Manage/ManageCards";
 import { Hero } from "../../components/Hero";
 import { MarketingCards } from "../../components/MarketingCards";
 import OurClients from "../../components/Clients/OurClients";
 import Manage from "../../components/Manage/Manage";
+import LearnMore from "../../components/LearnMore/LearnMore";
 
 export const Home = () => {
   return (
@@ -13,38 +14,7 @@ export const Home = () => {
       <Hero />
       <OurClients />
       <Manage />
-
-      {/* Learn More */}
-      <section className="learn-more" id="learnMore">
-        <div className="container">
-          <div className="learn-more-content">
-            <img src="/images/home/rafiki.png" alt="Illustration" />
-            <div className="right-wrapper">
-              <div className="text">
-                <h2>
-                  The unseen of spending three
-                  <br />
-                  years at Pixelgrade
-                </h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  sit amet justo ipsum. Sed
-                  <br />
-                  accumsan quam vitae est varius fringilla. Pellentesque
-                  placerat vestibulum lorem sed
-                  <br />
-                  porta. Nullam mattis tristique iaculis. Nullam pulvinar sit
-                  amet risus pretium auctor. Etiam
-                  <br />
-                  quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
-                  elementum pulvinar odio.
-                </p>
-              </div>
-              <LearnMoreButton />
-            </div>
-          </div>
-        </div>
-      </section>
+      <LearnMore />
 
       {/* Reinvent */}
       <section className="reinvent" id="reinvent">
@@ -131,7 +101,7 @@ export const Home = () => {
                   ipsum id gravida.
                 </p>
               </div>
-              <LearnMoreButton />
+              {/* <LearnMoreButton /> */}
             </div>
           </div>
         </div>
