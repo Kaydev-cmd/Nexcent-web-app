@@ -1,68 +1,3 @@
-/* Reinvent */
-.reinvent {
-  margin-top: 40px;
-  background-color: #f5f7fa;
-}
-
-.reinvent-content,
-.reinvent-content .text,
-.reinvent-content .content-wrapper,
-.reinvent-content .content-wrapper .upper-wrapper,
-.reinvent-content .content-wrapper .lower-wrapper,
-.reinvent-content .content-wrapper .card {
-  display: flex;
-}
-
-.reinvent-content .text,
-.reinvent-content .content-wrapper {
-  flex-direction: column;
-}
-
-.reinvent-content .content-wrapper,
-.reinvent-content .content-wrapper .upper-wrapper,
-.reinvent-content .content-wrapper .lower-wrapper {
-  gap: 40px;
-}
-
-.reinvent-content,
-.reinvent-content .content-wrapper .card {
-  align-items: center;
-}
-
-.reinvent-content .text h2,
-.reinvent-content .content-wrapper .card .text h3 {
-  color: #4d4d4d;
-}
-
-.reinvent-content {
-  justify-content: space-between;
-  padding: 100px 80px;
-}
-
-.reinvent-content .text {
-  gap: 4px;
-}
-
-.reinvent-content .text h2 {
-  text-transform: none;
-}
-
-.reinvent-content .text h2 span {
-  color: #4caf4f;
-}
-
-.reinvent-content .text p {
-  color: #18191f;
-}
-
-.reinvent-content .content-wrapper .card {
-  gap: 24px;
-}
-
-.reinvent-content .content-wrapper .card .text p {
-  color: #717171;
-}
-
 /* Local business */
 .local-business {
   margin-top: 40px;
@@ -251,16 +186,6 @@
 
 /* xl */
 @media (max-width: 1280px) {
-  /* Reinvent */
-  .reinvent-content {
-    padding: 100px 20px;
-  }
-  .reinvent-content .text h2 {
-    font-size: 32px;
-  }
-  .reinvent-content .text p {
-    font-size: 14px;
-  }
   /* Local business */
   .local-business .right-wrapper .text h2 {
     font-size: 32px;
@@ -276,19 +201,6 @@
 
 /* lg */
 @media (max-width: 1024px) {
-  /* Reinvent */
-  .reinvent-content {
-    padding: 100px 14px;
-  }
-  .reinvent-content .text h2 {
-    font-size: 28px;
-  }
-  .reinvent-content .text p {
-    font-size: 12px;
-  }
-  .reinvent-content .content-wrapper .card .text h3 {
-    font-size: 18px;
-  }
   /* Local business */
   .local-business-content {
     gap: 5px;
@@ -318,27 +230,6 @@
 
 /* md */
 @media (max-width: 768px) {
-  /* Reinvent */
-  .reinvent-content {
-    padding: 100px 0px;
-  }
-  .reinvent-content .text h2 {
-    font-size: 22px;
-  }
-  .reinvent-content .text p {
-    font-size: 12px;
-  }
-  .reinvent-content .content-wrapper .card .text h3 {
-    font-size: 16px;
-  }
-  .reinvent-content .content-wrapper .card .text p {
-    font-size: 11px;
-  }
-  .reinvent-content .content-wrapper,
-  .reinvent-content .content-wrapper .upper-wrapper,
-  .reinvent-content .content-wrapper .lower-wrapper {
-    gap: 20px;
-  }
   /* Local business */
   .local-business .local-business-content img {
     width: 50%;
@@ -369,15 +260,6 @@
 
 /* sm */
 @media (max-width: 640px) {
-  /* Reinvent */
-  .reinvent-content {
-    flex-direction: column;
-    gap: 40px;
-  }
-  .reinvent-content .text h2 {
-    text-align: center;
-    font-size: 22px;
-  }
   /* Local business */
   .local-business-content {
     flex-wrap: wrap;
@@ -422,10 +304,6 @@
 
 /* xs */
 @media (max-width: 475px) {
-  /* Reinvent */
-  .reinvent-content .content-wrapper .card img {
-    width: 100%;
-  }
   /* Customers */
   .customers-content .logos-and-link {
     gap: 10px;

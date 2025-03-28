@@ -1,12 +1,12 @@
-// import React from 'react'
+import React from "react";
 import "./Home.css";
 // import { LearnMoreButton } from "../../components/LearnMoreButton";
-// import { ManageCards } from "../../components/Manage/ManageCards";
 import { Hero } from "../../components/Hero";
 import { MarketingCards } from "../../components/MarketingCards";
 import OurClients from "../../components/Clients/OurClients";
 import Manage from "../../components/Manage/Manage";
 import LearnMore from "../../components/LearnMore/LearnMore";
+import ReInvent from "../../components/ReInvent/ReInvent";
 
 export const Home = () => {
   return (
@@ -15,59 +15,7 @@ export const Home = () => {
       <OurClients />
       <Manage />
       <LearnMore />
-
-      {/* Reinvent */}
-      <section className="reinvent" id="reinvent">
-        <div className="container">
-          <div className="reinvent-content">
-            <div className="text">
-              <h2>
-                Helping a local
-                <br />
-                <span>business reinvent itself</span>
-              </h2>
-              <p>We reached here with our hard work and dedication</p>
-            </div>
-            <div className="right-wrapper">
-              <div className="content-wrapper">
-                <div className="upper-wrapper">
-                  <div className="card">
-                    <img src="/images/home/Icon-10.png" alt="Users" />
-                    <div className="text">
-                      <h3>2,245,341</h3>
-                      <p>Members</p>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <img src="/images/home/Icon-11.png" alt="Hands" />
-                    <div className="text">
-                      <h3>46,328</h3>
-                      <p>Clubs</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="lower-wrapper">
-                  <div className="card">
-                    <img src="/images/home/Icon-12.png" alt="Hand" />
-                    <div className="text">
-                      <h3>828,867</h3>
-                      <p>Event Bookings</p>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <img src="/images/home/Icon-13.png" alt="Card" />
-                    <div className="text">
-                      <h3>1,926,436</h3>
-                      <p>Payments</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ReInvent />
 
       {/* Local business */}
       <section className="local-business" id="localBusiness">

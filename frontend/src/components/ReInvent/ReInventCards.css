@@ -1,0 +1,63 @@
+.right-wrapper .content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 34px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.right-wrapper .content-wrapper .card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.right-wrapper .content-wrapper .card .text h3 {
+  color: #4d4d4d;
+}
+
+.right-wrapper .content-wrapper .card .text p {
+  color: #717171;
+}
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .right-wrapper .content-wrapper .card .text h3 {
+    font-size: 18px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .right-wrapper .content-wrapper .card {
+    gap: 12px;
+  }
+  .right-wrapper .content-wrapper .card .text h3 {
+    font-size: 16px;
+  }
+  .right-wrapper .content-wrapper .card .text p {
+    font-size: 11px;
+  }
+  .right-wrapper .content-wrapper {
+    gap: 8px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
+}

@@ -1,0 +1,91 @@
+.reinvent {
+  margin-top: 40px;
+  background-color: #f5f7fa;
+}
+
+.reinvent .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 80px;
+}
+
+.reinvent .content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reinvent .content .text h2 span {
+  color: #4caf4f;
+}
+
+.reinvent .content .text p {
+  color: #18191f;
+}
+
+.reinvent .content .text h2 {
+  color: #4d4d4d;
+  text-transform: none;
+}
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .reinvent .content {
+    padding: 100px 20px;
+  }
+  .reinvent .content .text h2 {
+    font-size: 32px;
+  }
+  .reinvent .content .text p {
+    font-size: 14px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .reinvent .content {
+    padding: 100px 14px;
+  }
+  .reinvent .content .text h2 {
+    font-size: 28px;
+  }
+  .reinvent .content .text p {
+    font-size: 12px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .reinvent .content {
+    padding: 100px 0px;
+  }
+  .reinvent .content .text h2 {
+    font-size: 22px;
+  }
+  .reinvent .content .text p {
+    font-size: 12px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .reinvent .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .reinvent .content .text h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+}
