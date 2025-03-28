@@ -4,31 +4,13 @@ import { LearnMoreButton } from "../../components/LearnMoreButton";
 import { ManageCards } from "../../components/ManageCards";
 import { Hero } from "../../components/Hero";
 import { MarketingCards } from "../../components/MarketingCards";
+import OurClients from "../../components/Clients/OurClients";
 
 export const Home = () => {
   return (
     <>
       <Hero />
-      {/* Our Clients */}
-      <section className="our-clients" id="ourClients">
-        <div className="container">
-          <div className="our-clients-content">
-            <div className="text">
-              <h2>Our Clients</h2>
-              <p>We have been working with some Fortune 500&#43; clients</p>
-            </div>
-            <div className="our-clients-content-icons">
-              <img src="/images/home/Logo.png" alt="Company Logo" />
-              <img src="/images/home/Logo-1.png" alt="Company Logo" />
-              <img src="/images/home/Logo-2.png" alt="Company Logo" />
-              <img src="/images/home/Logo-3.png" alt="Company Logo" />
-              <img src="/images/home/Logo-4.png" alt="Company Logo" />
-              <img src="/images/home/Logo-5.png" alt="Company Logo" />
-              <img src="/images/home/Logo-6.png" alt="Company Logo" />
-            </div>
-          </div>
-        </div>
-      </section>
+      <OurClients />
 
       {/* Manage */}
       <section className="manage" id="manage">

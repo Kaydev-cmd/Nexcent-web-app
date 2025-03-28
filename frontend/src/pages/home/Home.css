@@ -1,41 +1,3 @@
-/* Our Clients */
-.our-clients {
-  margin-top: 40px;
-}
-
-.our-clients-content,
-.our-clients-content .text,
-.our-clients-content-icons {
-  display: flex;
-}
-
-.our-clients-content,
-.our-clients-content .text {
-  flex-direction: column;
-}
-
-.our-clients-content {
-  gap: 40px;
-}
-
-.our-clients-content .text {
-  align-items: center;
-  gap: 10px;
-}
-
-.our-clients-content .text h2 {
-  text-transform: capitalize;
-  color: #4d4d4d;
-}
-
-.our-clients-content .text p {
-  color: #717171;
-}
-
-.our-clients-content-icons {
-  justify-content: space-around;
-}
-
 /* Manage */
 .manage {
   margin-top: 40px;
@@ -360,16 +322,10 @@
 
 /* 2xl */
 @media (max-width: 1536px) {
-  .container {
-    max-width: 1280px;
-  }
 }
 
 /* xl */
 @media (max-width: 1280px) {
-  .container {
-    max-width: 1024px;
-  }
   /* Learn More */
   .learn-more .right-wrapper .text h2 {
     font-size: 32px;
@@ -402,16 +358,6 @@
 
 /* lg */
 @media (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
-  /* Our Clients */
-  .our-clients-content .text h2 {
-    font-size: 34px;
-  }
-  .our-clients-content .text p {
-    font-size: 14px;
-  }
   /* Manage */
   .manage-content .text h2 {
     font-size: 34px;
@@ -468,16 +414,6 @@
 
 /* md */
 @media (max-width: 768px) {
-  .container {
-    max-width: 640px;
-  }
-  /* Our Clients */
-  .our-clients-content .text h2 {
-    font-size: 30px;
-  }
-  .our-clients-content .text p {
-    font-size: 12px;
-  }
   /* Manage */
   .manage-content .text h2 {
     font-size: 30px;
@@ -543,16 +479,6 @@
 
 /* sm */
 @media (max-width: 640px) {
-  .container {
-    max-width: 475px;
-  }
-  /* Our Clients */
-  .our-clients-content .text h2 {
-    font-size: 22px;
-  }
-  .our-clients-content-icons img {
-    width: 8%;
-  }
   /* Manage */
   .manage-content .text h2 {
     font-size: 22px;
@@ -622,13 +548,6 @@
 
 /* xs */
 @media (max-width: 475px) {
-  .container {
-    width: 100%;
-  }
-  /* Our Clients */
-  .our-clients-content .text p {
-    font-size: 11px;
-  }
   /* Reinvent */
   .reinvent-content .content-wrapper .card img {
     width: 100%;
