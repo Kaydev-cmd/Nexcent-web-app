@@ -1,33 +1,18 @@
 // import React from 'react'
 import "./Home.css";
 import { LearnMoreButton } from "../../components/LearnMoreButton";
-import { ManageCards } from "../../components/ManageCards";
+import { ManageCards } from "../../components/Manage/ManageCards";
 import { Hero } from "../../components/Hero";
 import { MarketingCards } from "../../components/MarketingCards";
 import OurClients from "../../components/Clients/OurClients";
+import Manage from "../../components/Manage/Manage";
 
 export const Home = () => {
   return (
     <>
       <Hero />
       <OurClients />
-
-      {/* Manage */}
-      <section className="manage" id="manage">
-        <div className="container">
-          <div className="manage-content">
-            <div className="text">
-              <h2>
-                Manage your entire community
-                <br />
-                in a single system
-              </h2>
-              <p>Who is Nextcent suitable for?</p>
-            </div>
-            <ManageCards />
-          </div>
-        </div>
-      </section>
+      <Manage />
 
       {/* Learn More */}
       <section className="learn-more" id="learnMore">
