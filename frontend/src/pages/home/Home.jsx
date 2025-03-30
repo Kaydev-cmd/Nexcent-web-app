@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 // import { LearnMoreButton } from "../../components/LearnMoreButton";
-import { Hero } from "../../components/Hero";
+import { Hero } from "../../components/Hero/Hero";
 import { MarketingCards } from "../../components/MarketingCards";
 import OurClients from "../../components/Clients/OurClients";
 import Manage from "../../components/Manage/Manage";
