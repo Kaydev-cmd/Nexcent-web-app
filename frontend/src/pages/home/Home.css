@@ -1,70 +1,3 @@
-/* Customers */
-.customers {
-  margin-top: 40px;
-  background-color: #f5f7fa;
-}
-
-.customers-content-wrapper,
-.customers-content,
-.customers-content .text,
-.customers-content .logos-and-link,
-.customers-content .logos-and-link p {
-  display: flex;
-}
-
-.customers-content,
-.customers-content .text {
-  flex-direction: column;
-}
-
-.customers-content,
-.customers-content .text {
-  gap: 20px;
-}
-
-.customers-content .logos-and-link,
-.customers-content .logos-and-link p {
-  align-items: center;
-}
-
-.customers-content .text h4,
-.customers-content .logos-and-link p a {
-  color: #4caf4f;
-}
-
-.customers-content-wrapper {
-  justify-content: flex-end;
-}
-
-.customers-content {
-  padding: 60px 100px;
-}
-
-.customers-content .text p {
-  color: #717171;
-}
-
-.customers-content .text p span {
-  color: #89939e;
-}
-
-.customers-content .logos-and-link {
-  justify-content: space-between;
-}
-
-.customers-content .logos-and-link p {
-  gap: 4px;
-}
-
-.customers-content .logos-and-link p a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.customers-content .logos-and-link p a:hover {
-  text-decoration: underline;
-}
-
 /* Marketing */
 .marketing {
   margin-top: 40px;
@@ -148,21 +81,10 @@
 
 /* xl */
 @media (max-width: 1280px) {
-  /* Customers */
-  .customers-content-wrapper {
-    justify-content: center;
-  }
 }
 
 /* lg */
 @media (max-width: 1024px) {
-  /* Customers */
-  .customers-content .text h4 {
-    font-size: 20px;
-  }
-  .customers-content .text p {
-    font-size: 14px;
-  }
   /* Marketing */
   .marketing-content .text h2 {
     font-size: 30px;
@@ -178,42 +100,10 @@
 
 /* md */
 @media (max-width: 768px) {
-  /* Customers */
-  .customers-content .text h4 {
-    font-size: 18px;
-  }
-  .customers-content .text p {
-    font-size: 12px;
-  }
-  .customers-content .logos-and-link {
-    gap: 2px;
-  }
-  .customers-content .logos-and-link img {
-    width: 40px;
-  }
-  .customers-content .logos-and-link p {
-    font-size: 14px;
-  }
-  .customers-content .logos-and-link p img {
-    width: 24px;
-  }
 }
 
 /* sm */
 @media (max-width: 640px) {
-  /* Customers */
-  .customers-content {
-    padding: 20px;
-  }
-  .customers-content .logos-and-link img {
-    width: 30px;
-  }
-  .customers-content .logos-and-link p {
-    font-size: 12px;
-  }
-  .customers-content .logos-and-link p img {
-    width: 20px;
-  }
   /* Marketing */
   .marketing-content .text h2 {
     font-size: 22px;
@@ -232,20 +122,6 @@
 
 /* xs */
 @media (max-width: 475px) {
-  /* Customers */
-  .customers-content .logos-and-link {
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  .customers-content .logos-and-link img {
-    width: 10%;
-  }
-  .customers-content .logos-and-link p {
-    font-size: 12px;
-  }
-  .customers-content .logos-and-link p img {
-    width: 18px;
-  }
   /* Demo */
   .demo-content h2 {
     font-size: 24px;
