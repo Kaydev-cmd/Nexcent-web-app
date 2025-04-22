@@ -1,11 +1,11 @@
 .marketing-content-cards,
 .marketing-content-card,
-.marketing-content-card .card-link p {
+.marketing-content-card .card-link p a {
   display: flex;
 }
 
 .marketing-content-card,
-.marketing-content-card .card-link p {
+.marketing-content-card .card-link p a {
   align-items: center;
 }
 
@@ -26,7 +26,7 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.marketing-content-card .card-link p {
+.marketing-content-card .card-link p a {
   gap: 4px;
 }
 
@@ -52,23 +52,14 @@
 
 /* 2xl */
 @media (max-width: 1536px) {
-  .container {
-    max-width: 1280px;
-  }
 }
 
 /* xl */
 @media (max-width: 1280px) {
-  .container {
-    max-width: 1024px;
-  }
 }
 
 /* lg */
 @media (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
   .marketing-content-card {
     width: 240px;
   }
@@ -76,9 +67,6 @@
 
 /* md */
 @media (max-width: 768px) {
-  .container {
-    max-width: 640px;
-  }
   .marketing-content-card {
     width: 200px;
   }
@@ -86,9 +74,6 @@
 
 /* sm */
 @media (max-width: 640px) {
-  .container {
-    max-width: 475px;
-  }
   .marketing-content-card {
     width: 300px;
   }
@@ -100,9 +85,6 @@
 
 /* xs */
 @media (max-width: 475px) {
-  .container {
-    width: 100%;
-  }
   .marketing-content-card {
     width: 280px;
   }
