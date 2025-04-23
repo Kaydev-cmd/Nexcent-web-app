@@ -9,6 +9,7 @@ import ReInvent from "../../components/ReInvent/ReInvent";
 import LocalBusiness from "../../components/LocalBusiness/LocalBusiness";
 import Customers from "../../components/Customers/Customers";
 import Marketing from "../../components/Marketing/Marketing";
+import Demo from "../../components/Demo/Demo";
 
 export const Home = () => {
   return (
@@ -21,23 +22,7 @@ export const Home = () => {
       <LocalBusiness />
       <Customers />
       <Marketing />
-
-      {/* Demo */}
-      <section className="demo" id="demo">
-        <div className="container">
-          <div className="demo-content">
-            <h2>
-              Pellentesque suscipit
-              <br />
-              fringilla libero eu.
-            </h2>
-            <button>
-              Get a demo{" "}
-              <img src="/images/home/Right-white.png" alt="Right Arrow" />
-            </button>
-          </div>
-        </div>
-      </section>
+      <Demo />
     </>
   );
 };

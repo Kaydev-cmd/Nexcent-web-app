@@ -1,0 +1,65 @@
+.marketing {
+  margin-top: 40px;
+}
+
+.marketing-content .text {
+  display: flex;
+}
+
+.marketing-content .text {
+  text-align: center;
+}
+
+.marketing-content .text {
+  flex-direction: column;
+}
+
+.marketing-content .text p {
+  color: #717171;
+}
+
+.marketing-content .text {
+  gap: 16px;
+}
+
+.marketing-content .text h2 {
+  color: #4d4d4d;
+}
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .marketing-content .text h2 {
+    font-size: 30px;
+  }
+  .marketing-content .text p {
+    font-size: 12px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .marketing-content .text h2 {
+    font-size: 22px;
+  }
+  .marketing-content .text p {
+    font-size: 11px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+}
